@@ -1,0 +1,1322 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:media='http://search.yahoo.com/mrss/' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:gd='http://schemas.google.com/g/2005' xmlns:yt='http://gdata.youtube.com/schemas/2007'>
+    <id>http://gdata.youtube.com/feeds/api/standardfeeds/us/recently_featured</id>
+    <updated>2010-12-21T18:59:58.000-08:00</updated>
+    <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+    <title type='text'> </title>
+    <logo>http://www.youtube.com/img/pic_youtubelogo_123x63.gif</logo>
+    <author>
+        <name>YouTube</name>
+        <uri>http://www.youtube.com/</uri>
+    </author>
+    <generator version='2.0' uri='http://gdata.youtube.com/'>YouTube data API</generator>
+    <openSearch:totalResults>25</openSearch:totalResults>
+    <openSearch:startIndex>0</openSearch:startIndex>
+    <openSearch:itemsPerPage>25</openSearch:itemsPerPage>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/yKTjM5gmTy0</id>
+            <youTubeId id='yKTjM5gmTy0'>yKTjM5gmTy0</youTubeId>
+            <published>2009-04-30T22:00:00.000Z</published>
+            <updated>2009-04-30T22:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="People &amp; Blogs" term="People &amp; Blogs">People &amp; Blogs</category>
+            <title type='text'>Anthony is Mexican</title>
+            <content type='text'>SEE HOW ANTHONY GOT HURT: http://smosh.com/videos/how-anthony-got-hurt
+Check out new Smosh gear: http://bit.ly/SMOSHstore
+
+Things between Anthony and Ian get muy strange when Anthony finally discovers his true heritage.
+
+http://smosh.com 
+http://twitter.com/smosh 
+http://myspace.com/smosh</content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/yKTjM5gmTy0/related"/>
+            <author>
+                <name>smosh</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/smosh</uri>
+                <yt:userId>UCY30JRSgfhYXA6i6xX1erWg</yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/yKTjM5gmTy0/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>Anthony is Mexican</media:title>
+                <media:category label='People &amp; Blogs' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>People &amp; Blogs</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=yKTjM5gmTy0' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/>
+                <media:description type='plain'>SEE HOW ANTHONY GOT HURT: http://smosh.com/videos/how-anthony-got-hurt
+Check out new Smosh gear: http://bit.ly/SMOSHstore
+
+Things between Anthony and Ian get muy strange when Anthony finally discovers his true heritage.
+
+http://smosh.com 
+http://twitter.com/smosh 
+http://myspace.com/smosh</media:description>
+                <media:keywords>smosh, anthony, padilla, ian, hecox, mexico, tacos, burrito</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=yKTjM5gmTy0'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/yKTjM5gmTy0/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/yKTjM5gmTy0/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/yKTjM5gmTy0/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='315'/>
+                <yt:uploaded>2009-04-30T22:00:00.000Z</yt:uploaded>
+                <yt:uploaderId>UCY30JRSgfhYXA6i6xX1erWg</yt:uploaderId>
+                <yt:videoid id='yKTjM5gmTy0'>yKTjM5gmTy0</yt:videoid>
+                <youTubeId id='yKTjM5gmTy0'>yKTjM5gmTy0</youTubeId>
+                <media:credit role='uploader' yt:display='smosh' name='smosh'>smosh</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='25696' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="102787" viewCount="15418147"/>
+            <yt:rating numLikes="92508" numDislikes="10278"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/u9_kahA_wQo</id>
+            <youTubeId id='u9_kahA_wQo'>u9_kahA_wQo</youTubeId>
+            <published>2009-05-14T22:00:00.000Z</published>
+            <updated>2009-05-14T22:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="People &amp; Blogs" term="People &amp; Blogs">People &amp; Blogs</category>
+            <title type='text'>Grammar Police</title>
+            <content type='text'>You can run but you can't hide as Smosh takes to the streets to regulate bad grammar!
+
+GET THE POSTER: http://smosh.com/merch
+ALTERNATE ENDING: http://smosh.com/videos
+
+http://smosh.com
+http://myspace.com/smosh
+http://twitter.com/smosh</content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/u9_kahA_wQo/related"/>
+            <author>
+                <name>smosh</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/smosh</uri>
+                <yt:userId>UCY30JRSgfhYXA6i6xX1erWg</yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/u9_kahA_wQo/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>Grammar Police</media:title>
+                <media:category label='People &amp; Blogs' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>People &amp; Blogs</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=u9_kahA_wQo' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/>
+                <media:description type='plain'>You can run but you can't hide as Smosh takes to the streets to regulate bad grammar!
+
+GET THE POSTER: http://smosh.com/merch
+ALTERNATE ENDING: http://smosh.com/videos
+
+http://smosh.com
+http://myspace.com/smosh
+http://twitter.com/smosh</media:description>
+                <media:keywords>smosh, anthony, padilla, ian, hecox, grammer, cops, nozzle</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=u9_kahA_wQo'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/u9_kahA_wQo/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/u9_kahA_wQo/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/u9_kahA_wQo/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='324'/>
+                <yt:uploaded>2009-05-14T22:00:00.000Z</yt:uploaded>
+                <yt:uploaderId>UCY30JRSgfhYXA6i6xX1erWg</yt:uploaderId>
+                <yt:videoid id='u9_kahA_wQo'>u9_kahA_wQo</yt:videoid>
+                <youTubeId id='u9_kahA_wQo'>u9_kahA_wQo</youTubeId>
+                <media:credit role='uploader' yt:display='smosh' name='smosh'>smosh</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='30848' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="123392" viewCount="18508918"/>
+            <yt:rating numLikes="111053" numDislikes="12339"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/U7QyqBBbabg</id>
+            <youTubeId id='U7QyqBBbabg'>U7QyqBBbabg</youTubeId>
+            <published>2009-07-16T13:19:14.000Z</published>
+            <updated>2009-07-16T13:19:14.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="Gaming" term="Gaming">Gaming</category>
+            <title type='text'>Breaking the Bank (interactive game!)</title>
+            <content type='text'>Choose one and enjoy!</content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/U7QyqBBbabg/related"/>
+            <author>
+                <name>stickfighterlikespie</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/stickfighterlikespie</uri>
+                <yt:userId>UCJ-zCkyvyQBG3ChhW0YX4cw</yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/U7QyqBBbabg/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>Breaking the Bank (interactive game!)</media:title>
+                <media:category label='Gaming' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Gaming</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=U7QyqBBbabg' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/>
+                <media:description type='plain'>Choose one and enjoy!</media:description>
+                <media:keywords>clip0025</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=U7QyqBBbabg'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/U7QyqBBbabg/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/U7QyqBBbabg/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/U7QyqBBbabg/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='27'/>
+                <yt:uploaded>2009-07-16T13:19:14.000Z</yt:uploaded>
+                <yt:uploaderId>UCJ-zCkyvyQBG3ChhW0YX4cw</yt:uploaderId>
+                <yt:videoid id='U7QyqBBbabg'>U7QyqBBbabg</yt:videoid>
+                <youTubeId id='U7QyqBBbabg'>U7QyqBBbabg</youTubeId>
+                <media:credit role='uploader' yt:display='stickfighterlikespie' name='stickfighterlikespie'>stickfighterlikespie</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='0' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="1" viewCount="274"/>
+            <yt:rating numLikes="16" numDislikes="1"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/iHS_LkYaUVE</id>
+            <youTubeId id='iHS_LkYaUVE'>iHS_LkYaUVE</youTubeId>
+            <published>2009-08-06T22:00:00.000Z</published>
+            <updated>2009-08-06T22:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="People &amp; Blogs" term="People &amp; Blogs">People &amp; Blogs</category>
+            <title type='text'>The Ultimate Shoedown</title>
+            <content type='text'>WATCH THE LOSER GET HUMILIATED: http://smosh.com/videos
+
+When Ian and Anthony are pitted against each other in a high-stakes race, who will claim victory?
+
+http://smosh.com
+http://twitter.com/smosh
+http://facebook.com/smosh
+http://myspace.com/smosh</content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/iHS_LkYaUVE/related"/>
+            <author>
+                <name>smosh</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/smosh</uri>
+                <yt:userId>UCY30JRSgfhYXA6i6xX1erWg</yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/iHS_LkYaUVE/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>The Ultimate Shoedown</media:title>
+                <media:category label='People &amp; Blogs' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>People &amp; Blogs</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=iHS_LkYaUVE' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/><media:content url='http://a-yt2009.truehosting.net:80/exp_hd?video_id=iHS_LkYaUVE' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='8'/>
+                <media:description type='plain'>WATCH THE LOSER GET HUMILIATED: http://smosh.com/videos
+
+When Ian and Anthony are pitted against each other in a high-stakes race, who will claim victory?
+
+http://smosh.com
+http://twitter.com/smosh
+http://facebook.com/smosh
+http://myspace.com/smosh</media:description>
+                <media:keywords>smosh, anthony, padilla, ian, hecox, shoes, showdown, fail</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=iHS_LkYaUVE'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/iHS_LkYaUVE/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/iHS_LkYaUVE/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/iHS_LkYaUVE/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='284'/>
+                <yt:uploaded>2009-08-06T22:00:00.000Z</yt:uploaded>
+                <yt:uploaderId>UCY30JRSgfhYXA6i6xX1erWg</yt:uploaderId>
+                <yt:videoid id='iHS_LkYaUVE'>iHS_LkYaUVE</yt:videoid>
+                <youTubeId id='iHS_LkYaUVE'>iHS_LkYaUVE</youTubeId>
+                <media:credit role='uploader' yt:display='smosh' name='smosh'>smosh</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='21029' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="84119" viewCount="12617870"/>
+            <yt:rating numLikes="75707" numDislikes="8411"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/EZjfZLTbnvY</id>
+            <youTubeId id='EZjfZLTbnvY'>EZjfZLTbnvY</youTubeId>
+            <published>2008-01-10T23:00:00.000Z</published>
+            <updated>2008-01-10T23:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="People &amp; Blogs" term="People &amp; Blogs">People &amp; Blogs</category>
+            <title type='text'>Cat Soup</title>
+            <content type='text'>BLOOPERS: http://smosh.com/videos
+
+When Ian comes down with a cold, Anthony helps speed his recovery with an extra-special soup. Now with extra protein!
+
+Song by Discovery of a Lifelong Error: http://myspace.com/discoveryofalifelongerror
+
+http://smosh.com
+http://myspace.com/smosh
+http://twitter.com/smosh</content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/EZjfZLTbnvY/related"/>
+            <author>
+                <name>smosh</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/smosh</uri>
+                <yt:userId>UCY30JRSgfhYXA6i6xX1erWg</yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/EZjfZLTbnvY/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>Cat Soup</media:title>
+                <media:category label='People &amp; Blogs' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>People &amp; Blogs</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=EZjfZLTbnvY' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/>
+                <media:description type='plain'>BLOOPERS: http://smosh.com/videos
+
+When Ian comes down with a cold, Anthony helps speed his recovery with an extra-special soup. Now with extra protein!
+
+Song by Discovery of a Lifelong Error: http://myspace.com/discoveryofalifelongerror
+
+http://smosh.com
+http://myspace.com/smosh
+http://twitter.com/smosh</media:description>
+                <media:keywords>smosh, anthony, padilla, ian, hecox, stuffed, animal, cat</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=EZjfZLTbnvY'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/EZjfZLTbnvY/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/EZjfZLTbnvY/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/EZjfZLTbnvY/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='182'/>
+                <yt:uploaded>2008-01-10T23:00:00.000Z</yt:uploaded>
+                <yt:uploaderId>UCY30JRSgfhYXA6i6xX1erWg</yt:uploaderId>
+                <yt:videoid id='EZjfZLTbnvY'>EZjfZLTbnvY</yt:videoid>
+                <youTubeId id='EZjfZLTbnvY'>EZjfZLTbnvY</youTubeId>
+                <media:credit role='uploader' yt:display='smosh' name='smosh'>smosh</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='14968' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="59872" viewCount="8980897"/>
+            <yt:rating numLikes="53885" numDislikes="5987"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/v9Tdqf8qVdI</id>
+            <youTubeId id='v9Tdqf8qVdI'>v9Tdqf8qVdI</youTubeId>
+            <published>2009-09-06T22:00:00.000Z</published>
+            <updated>2009-09-06T22:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="People &amp; Blogs" term="People &amp; Blogs">People &amp; Blogs</category>
+            <title type='text'>How to record sound on fraps windows</title>
+            <content type='text'>do what it tells you to do. i don't think you have to be a windows XP</content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/v9Tdqf8qVdI/related"/>
+            <author>
+                <name>SuperKaitoKid</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/SuperKaitoKid</uri>
+                <yt:userId>UCOYKZCGIUS_ec-Yi4jvbwNw</yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/v9Tdqf8qVdI/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>How to record sound on fraps windows</media:title>
+                <media:category label='People &amp; Blogs' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>People &amp; Blogs</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=v9Tdqf8qVdI' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/><media:content url='http://a-yt2009.truehosting.net:80/get_480?video_id=v9Tdqf8qVdI' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='14'/>
+                <media:description type='plain'>do what it tells you to do. i don't think you have to be a windows XP</media:description>
+                <media:keywords>how, to, record, sound, on, fraps, windows</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=v9Tdqf8qVdI'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/v9Tdqf8qVdI/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/v9Tdqf8qVdI/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/v9Tdqf8qVdI/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='119'/>
+                <yt:uploaded>2009-09-06T22:00:00.000Z</yt:uploaded>
+                <yt:uploaderId>UCOYKZCGIUS_ec-Yi4jvbwNw</yt:uploaderId>
+                <yt:videoid id='v9Tdqf8qVdI'>v9Tdqf8qVdI</yt:videoid>
+                <youTubeId id='v9Tdqf8qVdI'>v9Tdqf8qVdI</youTubeId>
+                <media:credit role='uploader' yt:display='SuperKaitoKid' name='SuperKaitoKid'>SuperKaitoKid</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='0' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="3" viewCount="493"/>
+            <yt:rating numLikes="29" numDislikes="3"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/Ffx9w2K_M28</id>
+            <youTubeId id='Ffx9w2K_M28'>Ffx9w2K_M28</youTubeId>
+            <published>2009-12-16T23:00:00.000Z</published>
+            <updated>2009-12-16T23:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="People &amp; Blogs" term="People &amp; Blogs">People &amp; Blogs</category>
+            <title type='text'>help setting up fraps sound</title>
+            <content type='text'>ive been having problems with fraps it records vids real good but i have no sound</content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/Ffx9w2K_M28/related"/>
+            <author>
+                <name>garthroller</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/garthroller</uri>
+                <yt:userId>UCofBoD-pahdptI_UuvTcy1A</yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/Ffx9w2K_M28/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>help setting up fraps sound</media:title>
+                <media:category label='People &amp; Blogs' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>People &amp; Blogs</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=Ffx9w2K_M28' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/><media:content url='http://a-yt2009.truehosting.net:80/get_480?video_id=Ffx9w2K_M28' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='14'/>
+                <media:description type='plain'>ive been having problems with fraps it records vids real good but i have no sound</media:description>
+                <media:keywords>fraps, ps3, ps2, 360, psn, xbox360, dancemusic, sony</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=Ffx9w2K_M28'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/Ffx9w2K_M28/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/Ffx9w2K_M28/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/Ffx9w2K_M28/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='268'/>
+                <yt:uploaded>2009-12-16T23:00:00.000Z</yt:uploaded>
+                <yt:uploaderId>UCofBoD-pahdptI_UuvTcy1A</yt:uploaderId>
+                <yt:videoid id='Ffx9w2K_M28'>Ffx9w2K_M28</yt:videoid>
+                <youTubeId id='Ffx9w2K_M28'>Ffx9w2K_M28</youTubeId>
+                <media:credit role='uploader' yt:display='garthroller' name='garthroller'>garthroller</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='0' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="3" viewCount="468"/>
+            <yt:rating numLikes="28" numDislikes="3"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/fnCf7sDpVXo</id>
+            <youTubeId id='fnCf7sDpVXo'>fnCf7sDpVXo</youTubeId>
+            <published>2009-03-23T23:00:00.000Z</published>
+            <updated>2009-03-23T23:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="People &amp; Blogs" term="People &amp; Blogs">People &amp; Blogs</category>
+            <title type='text'>How to install VMware Workstation on Windows</title>
+            <content type='text'>A HIGH DEFINITION VIDEO TUTORIAL</content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/fnCf7sDpVXo/related"/>
+            <author>
+                <name>PickardBrownTeaching</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/PickardBrownTeaching</uri>
+                <yt:userId>UCJLhXqlY0zjCO4qQtG4trEA</yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/fnCf7sDpVXo/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>How to install VMware Workstation on Windows</media:title>
+                <media:category label='People &amp; Blogs' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>People &amp; Blogs</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=fnCf7sDpVXo' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/><media:content url='http://a-yt2009.truehosting.net:80/exp_hd?video_id=fnCf7sDpVXo' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='8'/>
+                <media:description type='plain'>A HIGH DEFINITION VIDEO TUTORIAL</media:description>
+                <media:keywords>vmware, windows, install, virtual, computer, computing</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=fnCf7sDpVXo'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/fnCf7sDpVXo/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/fnCf7sDpVXo/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/fnCf7sDpVXo/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='181'/>
+                <yt:uploaded>2009-03-23T23:00:00.000Z</yt:uploaded>
+                <yt:uploaderId>UCJLhXqlY0zjCO4qQtG4trEA</yt:uploaderId>
+                <yt:videoid id='fnCf7sDpVXo'>fnCf7sDpVXo</yt:videoid>
+                <youTubeId id='fnCf7sDpVXo'>fnCf7sDpVXo</youTubeId>
+                <media:credit role='uploader' yt:display='PickardBrownTeaching' name='PickardBrownTeaching'>PickardBrownTeaching</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='213' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="852" viewCount="127812"/>
+            <yt:rating numLikes="7668" numDislikes="852"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/oNXzMBA9VU4</id>
+            <youTubeId id='oNXzMBA9VU4'>oNXzMBA9VU4</youTubeId>
+            <published>2007-09-14T22:00:00.000Z</published>
+            <updated>2007-09-14T22:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="People &amp; Blogs" term="People &amp; Blogs">People &amp; Blogs</category>
+            <title type='text'>Windows XP Installation Music</title>
+            <content type='text'>The music that you hear when you install Windows XP, welcoming you to the once new version of windows. 
+Made in 2001
+
+Enjoy
+
+©2001-2012 Microsoft Corporation, All Rights Reserved.</content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/oNXzMBA9VU4/related"/>
+            <author>
+                <name>Bennerman1k94</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/Bennerman1k94</uri>
+                <yt:userId>UCmTsWFqi-bfqYMS0FelhZtw</yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/oNXzMBA9VU4/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>Windows XP Installation Music</media:title>
+                <media:category label='People &amp; Blogs' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>People &amp; Blogs</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=oNXzMBA9VU4' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/><media:content url='http://a-yt2009.truehosting.net:80/get_480?video_id=oNXzMBA9VU4' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='14'/>
+                <media:description type='plain'>The music that you hear when you install Windows XP, welcoming you to the once new version of windows. 
+Made in 2001
+
+Enjoy
+
+©2001-2012 Microsoft Corporation, All Rights Reserved.</media:description>
+                <media:keywords>microsoft, windows, xp, music, startup, sound, home, edition</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=oNXzMBA9VU4'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/oNXzMBA9VU4/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/oNXzMBA9VU4/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/oNXzMBA9VU4/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='325'/>
+                <yt:uploaded>2007-09-14T22:00:00.000Z</yt:uploaded>
+                <yt:uploaderId>UCmTsWFqi-bfqYMS0FelhZtw</yt:uploaderId>
+                <yt:videoid id='oNXzMBA9VU4'>oNXzMBA9VU4</yt:videoid>
+                <youTubeId id='oNXzMBA9VU4'>oNXzMBA9VU4</youTubeId>
+                <media:credit role='uploader' yt:display='Bennerman1k94' name='Bennerman1k94'>Bennerman1k94</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='7815' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="31263" viewCount="4689481"/>
+            <yt:rating numLikes="28136" numDislikes="3126"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/91X1obtLCh8</id>
+            <youTubeId id='91X1obtLCh8'>91X1obtLCh8</youTubeId>
+            <published>2009-10-18T22:00:00.000Z</published>
+            <updated>2009-10-18T22:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="People &amp; Blogs" term="People &amp; Blogs">People &amp; Blogs</category>
+            <title type='text'>How to download videos from youtube and converte with free download manager</title>
+            <content type='text'>How to download free download manager go on this link http://www.filehippo.com/download_free_download_manager/ you can converte the movie in 8 or 9 other files : mp3,mp4,iPod,Avi.....
+I hope you will check it and you will download so many vides you want</content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/91X1obtLCh8/related"/>
+            <author>
+                <name>Sora151996</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/Sora151996</uri>
+                <yt:userId>UCn11Lk1NJZK8lt8Mmnrlyng</yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/91X1obtLCh8/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>How to download videos from youtube and converte with free download manager</media:title>
+                <media:category label='People &amp; Blogs' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>People &amp; Blogs</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=91X1obtLCh8' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/><media:content url='http://a-yt2009.truehosting.net:80/exp_hd?video_id=91X1obtLCh8' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='8'/>
+                <media:description type='plain'>How to download free download manager go on this link http://www.filehippo.com/download_free_download_manager/ you can converte the movie in 8 or 9 other files : mp3,mp4,iPod,Avi.....
+I hope you will check it and you will download so many vides you want</media:description>
+                <media:keywords>sora151996, how, to, hack, ebay</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=91X1obtLCh8'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/91X1obtLCh8/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/91X1obtLCh8/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/91X1obtLCh8/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='276'/>
+                <yt:uploaded>2009-10-18T22:00:00.000Z</yt:uploaded>
+                <yt:uploaderId>UCn11Lk1NJZK8lt8Mmnrlyng</yt:uploaderId>
+                <yt:videoid id='91X1obtLCh8'>91X1obtLCh8</yt:videoid>
+                <youTubeId id='91X1obtLCh8'>91X1obtLCh8</youTubeId>
+                <media:credit role='uploader' yt:display='Sora151996' name='Sora151996'>Sora151996</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='43' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="175" viewCount="26358"/>
+            <yt:rating numLikes="1581" numDislikes="175"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/TZbO_8c9FW0</id>
+            <youTubeId id='TZbO_8c9FW0'>TZbO_8c9FW0</youTubeId>
+            <published>2009-11-07T23:00:00.000Z</published>
+            <updated>2009-11-07T23:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="People &amp; Blogs" term="People &amp; Blogs">People &amp; Blogs</category>
+            <title type='text'>INTERNET DOWNLOADER MANAGER 5.18.4 LATEST VERSION (NOV09)</title>
+            <content type='text'>LINK!!INTERNET DOWNLOADER MANAGER 5.18.4 LATEST VERSION (NOV09)
+
+HOW TO INSTALL:
+
+STEP 1- extract the file
+STEP2-open the folder and install(Internet Download Manager v5.18.4 Setup)
+STEP3-open the "CRACK" folder
+STEP4-copy the "IDMan" and "Wh!-IDM" and patch it to the idm folder("C:\Program Files\Internet Download Manager')
+STEP 5-MERGE "Wh!-IDM"
+
+ENJOY THE LATEST VERSION!!!PLS RATE AND SUBSCRIBE!!!
+
+
+
+
+
+
+
+
+ http://rs19.rapidshare.com/files/300692408/_IDM-0x4F12_Whi_.rar
+
+
+
+NO VIRUS!!!!!100% SURE</content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/TZbO_8c9FW0/related"/>
+            <author>
+                <name>MegaPhantomhive</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/MegaPhantomhive</uri>
+                <yt:userId>UCAk54PfIATyS8arwz5ryOlw</yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/TZbO_8c9FW0/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>INTERNET DOWNLOADER MANAGER 5.18.4 LATEST VERSION (NOV09)</media:title>
+                <media:category label='People &amp; Blogs' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>People &amp; Blogs</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=TZbO_8c9FW0' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/><media:content url='http://a-yt2009.truehosting.net:80/exp_hd?video_id=TZbO_8c9FW0' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='8'/>
+                <media:description type='plain'>LINK!!INTERNET DOWNLOADER MANAGER 5.18.4 LATEST VERSION (NOV09)
+
+HOW TO INSTALL:
+
+STEP 1- extract the file
+STEP2-open the folder and install(Internet Download Manager v5.18.4 Setup)
+STEP3-open the "CRACK" folder
+STEP4-copy the "IDMan" and "Wh!-IDM" and patch it to the idm folder("C:\Program Files\Internet Download Manager')
+STEP 5-MERGE "Wh!-IDM"
+
+ENJOY THE LATEST VERSION!!!PLS RATE AND SUBSCRIBE!!!
+
+
+
+
+
+
+
+
+ http://rs19.rapidshare.com/files/300692408/_IDM-0x4F12_Whi_.rar
+
+
+
+NO VIRUS!!!!!100% SURE</media:description>
+                <media:keywords>-</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=TZbO_8c9FW0'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/TZbO_8c9FW0/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/TZbO_8c9FW0/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/TZbO_8c9FW0/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='20'/>
+                <yt:uploaded>2009-11-07T23:00:00.000Z</yt:uploaded>
+                <yt:uploaderId>UCAk54PfIATyS8arwz5ryOlw</yt:uploaderId>
+                <yt:videoid id='TZbO_8c9FW0'>TZbO_8c9FW0</yt:videoid>
+                <youTubeId id='TZbO_8c9FW0'>TZbO_8c9FW0</youTubeId>
+                <media:credit role='uploader' yt:display='MegaPhantomhive' name='MegaPhantomhive'>MegaPhantomhive</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='4' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="17" viewCount="2620"/>
+            <yt:rating numLikes="157" numDislikes="17"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/z_aC5xPQ2f4</id>
+            <youTubeId id='z_aC5xPQ2f4'>z_aC5xPQ2f4</youTubeId>
+            <published>2009-11-29T23:00:00.000Z</published>
+            <updated>2009-11-29T23:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="People &amp; Blogs" term="People &amp; Blogs">People &amp; Blogs</category>
+            <title type='text'>Ne-Yo - Closer (Official Music Video)</title>
+            <content type='text'>Official Music Video for "Closer" performed by Ne-Yo, from the album Year Of The Gentleman.
+
+Subscribe to the channel https://www.youtube.com/channel/UCvtkFm0XlCLqyvtP7UpqAoA
+Get tickets for Nights Like This tour http://NeYoTheGentleman.com
+
+Watch more official music videos: https://www.youtube.com/playlist?list=PLAS7iaOglu5Ao9ZL9ATbuUaoXytxI46VB
+
+Connect with Ne-Yo:
+http://instagram.com/neyo
+http://facebook.com/neyo
+https://www.tiktok.com/@neyo
+http://twitter.com/neyocompound
+
+#NeYo #YearOfTheGentleman</content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/z_aC5xPQ2f4/related"/>
+            <author>
+                <name>UCa5R55NSXiWAZWi9997XYvg</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/UCa5R55NSXiWAZWi9997XYvg</uri>
+                <yt:userId>UCa5R55NSXiWAZWi9997XYvg</yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/z_aC5xPQ2f4/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>Ne-Yo - Closer (Official Music Video)</media:title>
+                <media:category label='People &amp; Blogs' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>People &amp; Blogs</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=z_aC5xPQ2f4' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/><media:content url='http://a-yt2009.truehosting.net:80/get_480?video_id=z_aC5xPQ2f4' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='14'/><media:content url='http://a-yt2009.truehosting.net:80/exp_hd?video_id=z_aC5xPQ2f4' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='8'/>
+                <media:description type='plain'>Official Music Video for "Closer" performed by Ne-Yo, from the album Year Of The Gentleman.
+
+Subscribe to the channel https://www.youtube.com/channel/UCvtkFm0XlCLqyvtP7UpqAoA
+Get tickets for Nights Like This tour http://NeYoTheGentleman.com
+
+Watch more official music videos: https://www.youtube.com/playlist?list=PLAS7iaOglu5Ao9ZL9ATbuUaoXytxI46VB
+
+Connect with Ne-Yo:
+http://instagram.com/neyo
+http://facebook.com/neyo
+https://www.tiktok.com/@neyo
+http://twitter.com/neyocompound
+
+#NeYo #YearOfTheGentleman</media:description>
+                <media:keywords>neyo, neyocloser, 2008rb, msicarb, 2000rb, rb</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=z_aC5xPQ2f4'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/z_aC5xPQ2f4/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/z_aC5xPQ2f4/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/z_aC5xPQ2f4/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='235'/>
+                <yt:uploaded>2009-11-29T23:00:00.000Z</yt:uploaded>
+                <yt:uploaderId>UCa5R55NSXiWAZWi9997XYvg</yt:uploaderId>
+                <yt:videoid id='z_aC5xPQ2f4'>z_aC5xPQ2f4</yt:videoid>
+                <youTubeId id='z_aC5xPQ2f4'>z_aC5xPQ2f4</youTubeId>
+                <media:credit role='uploader' yt:display='UCa5R55NSXiWAZWi9997XYvg' name='UCa5R55NSXiWAZWi9997XYvg'>UCa5R55NSXiWAZWi9997XYvg</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='291346' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="1165387" viewCount="174808066"/>
+            <yt:rating numLikes="1048848" numDislikes="116538"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/QNJL6nfu__Q</id>
+            <youTubeId id='QNJL6nfu__Q'>QNJL6nfu__Q</youTubeId>
+            <published>2009-10-01T22:00:00.000Z</published>
+            <updated>2009-10-01T22:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="People &amp; Blogs" term="People &amp; Blogs">People &amp; Blogs</category>
+            <title type='text'>Michael Jackson - They Don't Care About Us</title>
+            <content type='text'>Official Video for "They Don't Care About Us" by Michael Jackson
+
+Listen to more of your favorites by Michael Jackson: https://MichaelJackson.lnk.to/_listenYD
+Subscribe to the official Michael Jackson YouTube Channel: https://MichaelJackson.lnk.to/subscribeYD
+Watch more Michael Jackson videos: https://MichaelJackson.lnk.to/_listenYC/youtube
+Follow Michael Jackson:
+Facebook: https://MichaelJackson.lnk.to/_followFI
+Twitter: https://MichaelJackson.lnk.to/_followTI
+Instagram: https://MichaelJackson.lnk.to/_followII
+Website: https://MichaelJackson.lnk.to/_followWI
+Spotify: https://MichaelJackson.lnk.to/_followSI
+#MichaelJackson #TheyDontCareAboutUs #OfficialVideo #BrazilVersion
+
+Lyrics:
+All I want to say is that they don't really care about us
+Don't worry what people say, we know the truth
+All I want to say is that they don't really care about us
+Enough is enough of this garbage
+All I want to say is that they don't really care about us
+Skinhead, deadhead
+Everybody gone bad
+Situation aggravation
+Everybody, allegation
+In the suite on the news
+Everybody, dog food
+Bang-bang, shock dead
+Everybody's gone mad
+All I wanna say is that they don't really care about us
+All I wanna say is that they don't really care about us
+Beat me, hate me
+You can never break me
+Will me, thrill me
+You can never kill me
+Jew me, sue me
+Everybody, do me
+Kick me, kike me
+Don't you black or white me
+All I wanna say is that they don't really care about us
+All I wanna say is that they don't really care about us
+Tell me what has become of my life
+I have a wife and two children who love me
+I'm a victim of police brutality, now (Mhhm)
+I'm tired of bein' the victim of hate
+Your rapin' me of my pride
+Oh, for God's sake
+I look to heaven to fulfill its prophecy
+Set me free
+Skinhead, deadhead
+Everybody, gone bad
+Trepidation speculation
+Everybody, allegation
+In the suite on the news
+Everybody, dog food
+Black man, black mail
+Throw the brother in jail
+All I wanna say is that they don't really care about us
+All I wanna say is that they don't really care about us
+Tell me what has become of my rights
+Am I invisible 'cause you ignore me?
+Your proclamation promised me free liberty, now
+I'm tired of bein' the victim of shame
+They're throwin' me in a class with a bad name
+I can't believe this is the land from which I came
+You know I really do hate to say it
+The government don't wanna see
+But it Roosevelt was livin', he wouldn't let this be, no, no
+Skinhead, deadhead
+Everybody, gone bad
+Situation, speculation
+Everybody, litigation
+Beat me, bash me
+You can never trash me
+Hit me, kick me
+You can never get me
+All I wanna say is that they don't really care about us
+All I wanna say is that they don't really care about us
+Some things in life they just don't wanna see (Ah)
+But if Martin Luther was livin'
+He wouldn't let this be, no, no
+Skinhead, deadhead (Yeah, yeah)
+Everybody's gone bad
+Situation, segregation (Woo-hoo)
+Everybody, allegation
+In the suite on the news
+Everybody dog food (Woo-ho)
+Kick me, kike me
+Don't you wrong or right me
+All I wanna say is that they don't really care about us
+All I wanna say is that they don't really care about us
+All I wanna say is that they don't really care about us
+All I wanna say is that they don't really care about us
+All I wanna say is that they don't really care about us
+All I wanna say is that they don't really care about us</content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/QNJL6nfu__Q/related"/>
+            <author>
+                <name>michaeljacksonVEVO</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/michaeljacksonVEVO</uri>
+                <yt:userId>UCulYu1HEIa7f70L2lYZWHOw</yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/QNJL6nfu__Q/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>Michael Jackson - They Don't Care About Us</media:title>
+                <media:category label='People &amp; Blogs' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>People &amp; Blogs</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=QNJL6nfu__Q' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/><media:content url='http://a-yt2009.truehosting.net:80/get_480?video_id=QNJL6nfu__Q' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='14'/>
+                <media:description type='plain'>Official Video for "They Don't Care About Us" by Michael Jackson
+
+Listen to more of your favorites by Michael Jackson: https://MichaelJackson.lnk.to/_listenYD
+Subscribe to the official Michael Jackson YouTube Channel: https://MichaelJackson.lnk.to/subscribeYD
+Watch more Michael Jackson videos: https://MichaelJackson.lnk.to/_listenYC/youtube
+Follow Michael Jackson:
+Facebook: https://MichaelJackson.lnk.to/_followFI
+Twitter: https://MichaelJackson.lnk.to/_followTI
+Instagram: https://MichaelJackson.lnk.to/_followII
+Website: https://MichaelJackson.lnk.to/_followWI
+Spotify: https://MichaelJackson.lnk.to/_followSI
+#MichaelJackson #TheyDontCareAboutUs #OfficialVideo #BrazilVersion
+
+Lyrics:
+All I want to say is that they don't really care about us
+Don't worry what people say, we know the truth
+All I want to say is that they don't really care about us
+Enough is enough of this garbage
+All I want to say is that they don't really care about us
+Skinhead, deadhead
+Everybody gone bad
+Situation aggravation
+Everybody, allegation
+In the suite on the news
+Everybody, dog food
+Bang-bang, shock dead
+Everybody's gone mad
+All I wanna say is that they don't really care about us
+All I wanna say is that they don't really care about us
+Beat me, hate me
+You can never break me
+Will me, thrill me
+You can never kill me
+Jew me, sue me
+Everybody, do me
+Kick me, kike me
+Don't you black or white me
+All I wanna say is that they don't really care about us
+All I wanna say is that they don't really care about us
+Tell me what has become of my life
+I have a wife and two children who love me
+I'm a victim of police brutality, now (Mhhm)
+I'm tired of bein' the victim of hate
+Your rapin' me of my pride
+Oh, for God's sake
+I look to heaven to fulfill its prophecy
+Set me free
+Skinhead, deadhead
+Everybody, gone bad
+Trepidation speculation
+Everybody, allegation
+In the suite on the news
+Everybody, dog food
+Black man, black mail
+Throw the brother in jail
+All I wanna say is that they don't really care about us
+All I wanna say is that they don't really care about us
+Tell me what has become of my rights
+Am I invisible 'cause you ignore me?
+Your proclamation promised me free liberty, now
+I'm tired of bein' the victim of shame
+They're throwin' me in a class with a bad name
+I can't believe this is the land from which I came
+You know I really do hate to say it
+The government don't wanna see
+But it Roosevelt was livin', he wouldn't let this be, no, no
+Skinhead, deadhead
+Everybody, gone bad
+Situation, speculation
+Everybody, litigation
+Beat me, bash me
+You can never trash me
+Hit me, kick me
+You can never get me
+All I wanna say is that they don't really care about us
+All I wanna say is that they don't really care about us
+Some things in life they just don't wanna see (Ah)
+But if Martin Luther was livin'
+He wouldn't let this be, no, no
+Skinhead, deadhead (Yeah, yeah)
+Everybody's gone bad
+Situation, segregation (Woo-hoo)
+Everybody, allegation
+In the suite on the news
+Everybody dog food (Woo-ho)
+Kick me, kike me
+Don't you wrong or right me
+All I wanna say is that they don't really care about us
+All I wanna say is that they don't really care about us
+All I wanna say is that they don't really care about us
+All I wanna say is that they don't really care about us
+All I wanna say is that they don't really care about us
+All I wanna say is that they don't really care about us</media:description>
+                <media:keywords>-</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=QNJL6nfu__Q'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/QNJL6nfu__Q/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/QNJL6nfu__Q/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/QNJL6nfu__Q/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='282'/>
+                <yt:uploaded>2009-10-01T22:00:00.000Z</yt:uploaded>
+                <yt:uploaderId>UCulYu1HEIa7f70L2lYZWHOw</yt:uploaderId>
+                <yt:videoid id='QNJL6nfu__Q'>QNJL6nfu__Q</yt:videoid>
+                <youTubeId id='QNJL6nfu__Q'>QNJL6nfu__Q</youTubeId>
+                <media:credit role='uploader' yt:display='michaeljacksonVEVO' name='michaeljacksonVEVO'>michaeljacksonVEVO</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='2099773' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="8399093" viewCount="1259863979"/>
+            <yt:rating numLikes="7559183" numDislikes="839909"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/vs6shWn3g90</id>
+            <youTubeId id='vs6shWn3g90'>vs6shWn3g90</youTubeId>
+            <published>2009-07-18T22:00:00.000Z</published>
+            <updated>2009-07-18T22:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="People &amp; Blogs" term="People &amp; Blogs">People &amp; Blogs</category>
+            <title type='text'>downLoading video in youtube using FDM</title>
+            <content type='text'>FDM software for youtube videos..</content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/vs6shWn3g90/related"/>
+            <author>
+                <name>polgas12</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/polgas12</uri>
+                <yt:userId>UCAIt6Jz4Hb_eOmDIi-rhMxQ</yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/vs6shWn3g90/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>downLoading video in youtube using FDM</media:title>
+                <media:category label='People &amp; Blogs' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>People &amp; Blogs</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=vs6shWn3g90' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/><media:content url='http://a-yt2009.truehosting.net:80/get_480?video_id=vs6shWn3g90' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='14'/>
+                <media:description type='plain'>FDM software for youtube videos..</media:description>
+                <media:keywords>dsa</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=vs6shWn3g90'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/vs6shWn3g90/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/vs6shWn3g90/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/vs6shWn3g90/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='76'/>
+                <yt:uploaded>2009-07-18T22:00:00.000Z</yt:uploaded>
+                <yt:uploaderId>UCAIt6Jz4Hb_eOmDIi-rhMxQ</yt:uploaderId>
+                <yt:videoid id='vs6shWn3g90'>vs6shWn3g90</yt:videoid>
+                <youTubeId id='vs6shWn3g90'>vs6shWn3g90</youTubeId>
+                <media:credit role='uploader' yt:display='polgas12' name='polgas12'>polgas12</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='29' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="118" viewCount="17720"/>
+            <yt:rating numLikes="1063" numDislikes="118"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/VnrAhpPIATU</id>
+            <youTubeId id='VnrAhpPIATU'>VnrAhpPIATU</youTubeId>
+            <published>2009-04-23T22:00:00.000Z</published>
+            <updated>2009-04-23T22:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="People &amp; Blogs" term="People &amp; Blogs">People &amp; Blogs</category>
+            <title type='text'>Free Download manager</title>
+            <content type='text'></content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/VnrAhpPIATU/related"/>
+            <author>
+                <name>darker14</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/darker14</uri>
+                <yt:userId>UCKyNETpl6KoH57EuovJHdIg</yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/VnrAhpPIATU/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>Free Download manager</media:title>
+                <media:category label='People &amp; Blogs' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>People &amp; Blogs</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=VnrAhpPIATU' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/><media:content url='http://a-yt2009.truehosting.net:80/exp_hd?video_id=VnrAhpPIATU' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='8'/>
+                <media:description type='plain'></media:description>
+                <media:keywords>-</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=VnrAhpPIATU'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/VnrAhpPIATU/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/VnrAhpPIATU/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/VnrAhpPIATU/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='247'/>
+                <yt:uploaded>2009-04-23T22:00:00.000Z</yt:uploaded>
+                <yt:uploaderId>UCKyNETpl6KoH57EuovJHdIg</yt:uploaderId>
+                <yt:videoid id='VnrAhpPIATU'>VnrAhpPIATU</yt:videoid>
+                <youTubeId id='VnrAhpPIATU'>VnrAhpPIATU</youTubeId>
+                <media:credit role='uploader' yt:display='darker14' name='darker14'>darker14</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='7' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="31" viewCount="4665"/>
+            <yt:rating numLikes="279" numDislikes="31"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/_9q57oKPjDI</id>
+            <youTubeId id='_9q57oKPjDI'>_9q57oKPjDI</youTubeId>
+            <published>2009-12-22T23:00:00.000Z</published>
+            <updated>2009-12-22T23:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="-" term="-">-</category>
+            <title type='text'>The Michael Jackson 911 Call</title>
+            <content type='text'></content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/_9q57oKPjDI/related"/>
+            <author>
+                <name>undefined</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/undefined</uri>
+                <yt:userId></yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/_9q57oKPjDI/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>The Michael Jackson 911 Call</media:title>
+                <media:category label='-' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>-</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=_9q57oKPjDI' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/>
+                <media:description type='plain'></media:description>
+                <media:keywords>-</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=_9q57oKPjDI'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/_9q57oKPjDI/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/_9q57oKPjDI/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/_9q57oKPjDI/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='174'/>
+                <yt:uploaded>2009-12-22T23:00:00.000Z</yt:uploaded>
+                <yt:uploaderId></yt:uploaderId>
+                <yt:videoid id='_9q57oKPjDI'>_9q57oKPjDI</yt:videoid>
+                <youTubeId id='_9q57oKPjDI'>_9q57oKPjDI</youTubeId>
+                <media:credit role='uploader' yt:display='undefined' name='undefined'>undefined</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='2300' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="9201" viewCount="1380203"/>
+            <yt:rating numLikes="8281" numDislikes="920"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/5du1oc0j2KQ</id>
+            <youTubeId id='5du1oc0j2KQ'>5du1oc0j2KQ</youTubeId>
+            <published>2009-12-22T23:00:00.000Z</published>
+            <updated>2009-12-22T23:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="-" term="-">-</category>
+            <title type='text'>Death Metal Baby!! (2010)</title>
+            <content type='text'></content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/5du1oc0j2KQ/related"/>
+            <author>
+                <name>undefined</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/undefined</uri>
+                <yt:userId></yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/5du1oc0j2KQ/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>Death Metal Baby!! (2010)</media:title>
+                <media:category label='-' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>-</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=5du1oc0j2KQ' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/>
+                <media:description type='plain'></media:description>
+                <media:keywords>-</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=5du1oc0j2KQ'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/5du1oc0j2KQ/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/5du1oc0j2KQ/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/5du1oc0j2KQ/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='174'/>
+                <yt:uploaded>2009-12-22T23:00:00.000Z</yt:uploaded>
+                <yt:uploaderId></yt:uploaderId>
+                <yt:videoid id='5du1oc0j2KQ'>5du1oc0j2KQ</yt:videoid>
+                <youTubeId id='5du1oc0j2KQ'>5du1oc0j2KQ</youTubeId>
+                <media:credit role='uploader' yt:display='undefined' name='undefined'>undefined</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='11440' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="45763" viewCount="6864479"/>
+            <yt:rating numLikes="41186" numDislikes="4576"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/g2eH3vYbdGo</id>
+            <youTubeId id='g2eH3vYbdGo'>g2eH3vYbdGo</youTubeId>
+            <published>2009-12-22T23:00:00.000Z</published>
+            <updated>2009-12-22T23:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="-" term="-">-</category>
+            <title type='text'>Sega CD - Angry Video Game Nerd (AVGN)</title>
+            <content type='text'></content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/g2eH3vYbdGo/related"/>
+            <author>
+                <name>undefined</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/undefined</uri>
+                <yt:userId></yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/g2eH3vYbdGo/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>Sega CD - Angry Video Game Nerd (AVGN)</media:title>
+                <media:category label='-' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>-</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=g2eH3vYbdGo' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/>
+                <media:description type='plain'></media:description>
+                <media:keywords>-</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=g2eH3vYbdGo'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/g2eH3vYbdGo/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/g2eH3vYbdGo/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/g2eH3vYbdGo/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='174'/>
+                <yt:uploaded>2009-12-22T23:00:00.000Z</yt:uploaded>
+                <yt:uploaderId></yt:uploaderId>
+                <yt:videoid id='g2eH3vYbdGo'>g2eH3vYbdGo</yt:videoid>
+                <youTubeId id='g2eH3vYbdGo'>g2eH3vYbdGo</youTubeId>
+                <media:credit role='uploader' yt:display='undefined' name='undefined'>undefined</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='16183' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="64733" viewCount="9710067"/>
+            <yt:rating numLikes="58260" numDislikes="6473"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/7jjcAuEYW9M</id>
+            <youTubeId id='7jjcAuEYW9M'>7jjcAuEYW9M</youTubeId>
+            <published>2009-11-14T00:52:31.000Z</published>
+            <updated>2009-11-14T00:52:31.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="Comedy" term="Comedy">Comedy</category>
+            <title type='text'>The Duck Song 2</title>
+            <content type='text'>Song by Bryant Oden. Video by Forrest Whaley.
+
+Get the merch...
+https://www.theducksongstore.com/
+
+Get the song...
+http://itunes.apple.com/us/album/songdrops-2-20-more-songs/id402367443
+
+Thanks so much for watching and sharing! :)
+______________________________________________
+
+MORE DUCK SONGS:
+http://www.youtube.com/view_play_list?p=D40AE0956511B5EC
+
+OTHER SONGS:
+http://www.youtube.com/songdrops</content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/7jjcAuEYW9M/related"/>
+            <author>
+                <name>forrestfire101</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/forrestfire101</uri>
+                <yt:userId>UCOmMUjaCM5koM_nSJ1KVg5Q</yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/7jjcAuEYW9M/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>The Duck Song 2</media:title>
+                <media:category label='Comedy' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Comedy</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=7jjcAuEYW9M' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/><media:content url='http://a-yt2009.truehosting.net:80/get_480?video_id=7jjcAuEYW9M' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='14'/><media:content url='http://a-yt2009.truehosting.net:80/exp_hd?video_id=7jjcAuEYW9M' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='8'/>
+                <media:description type='plain'>Song by Bryant Oden. Video by Forrest Whaley.
+
+Get the merch...
+https://www.theducksongstore.com/
+
+Get the song...
+http://itunes.apple.com/us/album/songdrops-2-20-more-songs/id402367443
+
+Thanks so much for watching and sharing! :)
+______________________________________________
+
+MORE DUCK SONGS:
+http://www.youtube.com/view_play_list?p=D40AE0956511B5EC
+
+OTHER SONGS:
+http://www.youtube.com/songdrops</media:description>
+                <media:keywords>duck, comedy, animated, song, drops, music, part, pt</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=7jjcAuEYW9M'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/7jjcAuEYW9M/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/7jjcAuEYW9M/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/7jjcAuEYW9M/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='156'/>
+                <yt:uploaded>2009-11-14T00:52:31.000Z</yt:uploaded>
+                <yt:uploaderId>UCOmMUjaCM5koM_nSJ1KVg5Q</yt:uploaderId>
+                <yt:videoid id='7jjcAuEYW9M'>7jjcAuEYW9M</yt:videoid>
+                <youTubeId id='7jjcAuEYW9M'>7jjcAuEYW9M</youTubeId>
+                <media:credit role='uploader' yt:display='forrestfire101' name='forrestfire101'>forrestfire101</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='220961' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="883846" viewCount="132577041"/>
+            <yt:rating numLikes="883846" numDislikes="6460"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/Ol7uc9OqEf8</id>
+            <youTubeId id='Ol7uc9OqEf8'>Ol7uc9OqEf8</youTubeId>
+            <published>2009-12-22T23:00:00.000Z</published>
+            <updated>2009-12-22T23:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="-" term="-">-</category>
+            <title type='text'>The Mall</title>
+            <content type='text'></content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/Ol7uc9OqEf8/related"/>
+            <author>
+                <name>undefined</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/undefined</uri>
+                <yt:userId></yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/Ol7uc9OqEf8/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>The Mall</media:title>
+                <media:category label='-' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>-</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=Ol7uc9OqEf8' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/>
+                <media:description type='plain'></media:description>
+                <media:keywords>-</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=Ol7uc9OqEf8'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/Ol7uc9OqEf8/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/Ol7uc9OqEf8/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/Ol7uc9OqEf8/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='174'/>
+                <yt:uploaded>2009-12-22T23:00:00.000Z</yt:uploaded>
+                <yt:uploaderId></yt:uploaderId>
+                <yt:videoid id='Ol7uc9OqEf8'>Ol7uc9OqEf8</yt:videoid>
+                <youTubeId id='Ol7uc9OqEf8'>Ol7uc9OqEf8</youTubeId>
+                <media:credit role='uploader' yt:display='undefined' name='undefined'>undefined</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='2410' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="9642" viewCount="1446396"/>
+            <yt:rating numLikes="8678" numDislikes="964"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/OBUlpvyInzg</id>
+            <youTubeId id='OBUlpvyInzg'>OBUlpvyInzg</youTubeId>
+            <published>2009-12-22T23:00:00.000Z</published>
+            <updated>2009-12-22T23:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="-" term="-">-</category>
+            <title type='text'>Online Social Hangout - ROBLOX</title>
+            <content type='text'></content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/OBUlpvyInzg/related"/>
+            <author>
+                <name>undefined</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/undefined</uri>
+                <yt:userId></yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/OBUlpvyInzg/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>Online Social Hangout - ROBLOX</media:title>
+                <media:category label='-' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>-</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=OBUlpvyInzg' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/>
+                <media:description type='plain'></media:description>
+                <media:keywords>-</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=OBUlpvyInzg'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/OBUlpvyInzg/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/OBUlpvyInzg/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/OBUlpvyInzg/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='174'/>
+                <yt:uploaded>2009-12-22T23:00:00.000Z</yt:uploaded>
+                <yt:uploaderId></yt:uploaderId>
+                <yt:videoid id='OBUlpvyInzg'>OBUlpvyInzg</yt:videoid>
+                <youTubeId id='OBUlpvyInzg'>OBUlpvyInzg</youTubeId>
+                <media:credit role='uploader' yt:display='undefined' name='undefined'>undefined</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='24168' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="96674" viewCount="14501104"/>
+            <yt:rating numLikes="87006" numDislikes="9667"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/8KyVbQyHBWM</id>
+            <youTubeId id='8KyVbQyHBWM'>8KyVbQyHBWM</youTubeId>
+            <published>2009-12-22T23:00:00.000Z</published>
+            <updated>2009-12-22T23:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="-" term="-">-</category>
+            <title type='text'>Fusion Reborn! AMV - Requiem for a Dream</title>
+            <content type='text'></content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/8KyVbQyHBWM/related"/>
+            <author>
+                <name>undefined</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/undefined</uri>
+                <yt:userId></yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/8KyVbQyHBWM/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>Fusion Reborn! AMV - Requiem for a Dream</media:title>
+                <media:category label='-' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>-</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=8KyVbQyHBWM' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/>
+                <media:description type='plain'></media:description>
+                <media:keywords>-</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=8KyVbQyHBWM'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/8KyVbQyHBWM/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/8KyVbQyHBWM/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/8KyVbQyHBWM/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='174'/>
+                <yt:uploaded>2009-12-22T23:00:00.000Z</yt:uploaded>
+                <yt:uploaderId></yt:uploaderId>
+                <yt:videoid id='8KyVbQyHBWM'>8KyVbQyHBWM</yt:videoid>
+                <youTubeId id='8KyVbQyHBWM'>8KyVbQyHBWM</youTubeId>
+                <media:credit role='uploader' yt:display='undefined' name='undefined'>undefined</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='3' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="12" viewCount="1930"/>
+            <yt:rating numLikes="115" numDislikes="12"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/DdSBIiKKdkY</id>
+            <youTubeId id='DdSBIiKKdkY'>DdSBIiKKdkY</youTubeId>
+            <published>2009-12-22T23:00:00.000Z</published>
+            <updated>2009-12-22T23:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="-" term="-">-</category>
+            <title type='text'>DBZ Fusion Reborn [REMASTERED] HQ</title>
+            <content type='text'></content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/DdSBIiKKdkY/related"/>
+            <author>
+                <name>undefined</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/undefined</uri>
+                <yt:userId></yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/DdSBIiKKdkY/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>DBZ Fusion Reborn [REMASTERED] HQ</media:title>
+                <media:category label='-' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>-</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=DdSBIiKKdkY' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/>
+                <media:description type='plain'></media:description>
+                <media:keywords>-</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=DdSBIiKKdkY'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/DdSBIiKKdkY/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/DdSBIiKKdkY/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/DdSBIiKKdkY/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='174'/>
+                <yt:uploaded>2009-12-22T23:00:00.000Z</yt:uploaded>
+                <yt:uploaderId></yt:uploaderId>
+                <yt:videoid id='DdSBIiKKdkY'>DdSBIiKKdkY</yt:videoid>
+                <youTubeId id='DdSBIiKKdkY'>DdSBIiKKdkY</youTubeId>
+                <media:credit role='uploader' yt:display='undefined' name='undefined'>undefined</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='12090' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="48362" viewCount="7254353"/>
+            <yt:rating numLikes="43526" numDislikes="4836"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/NEl6ChhaELA</id>
+            <youTubeId id='NEl6ChhaELA'>NEl6ChhaELA</youTubeId>
+            <published>2009-12-22T23:00:00.000Z</published>
+            <updated>2009-12-22T23:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="-" term="-">-</category>
+            <title type='text'>Somewhere I Belong Linkin Park - Dragon Ball Z</title>
+            <content type='text'></content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/NEl6ChhaELA/related"/>
+            <author>
+                <name>undefined</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/undefined</uri>
+                <yt:userId></yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/NEl6ChhaELA/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>Somewhere I Belong Linkin Park - Dragon Ball Z</media:title>
+                <media:category label='-' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>-</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=NEl6ChhaELA' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/>
+                <media:description type='plain'></media:description>
+                <media:keywords>-</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=NEl6ChhaELA'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/NEl6ChhaELA/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/NEl6ChhaELA/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/NEl6ChhaELA/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='174'/>
+                <yt:uploaded>2009-12-22T23:00:00.000Z</yt:uploaded>
+                <yt:uploaderId></yt:uploaderId>
+                <yt:videoid id='NEl6ChhaELA'>NEl6ChhaELA</yt:videoid>
+                <youTubeId id='NEl6ChhaELA'>NEl6ChhaELA</youTubeId>
+                <media:credit role='uploader' yt:display='undefined' name='undefined'>undefined</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='3303' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="13212" viewCount="1981942"/>
+            <yt:rating numLikes="11891" numDislikes="1321"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/dQw4w9WgXcQ</id>
+            <youTubeId id='dQw4w9WgXcQ'>dQw4w9WgXcQ</youTubeId>
+            <published>2009-12-22T23:00:00.000Z</published>
+            <updated>2009-12-22T23:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="-" term="-">-</category>
+            <title type='text'>Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)</title>
+            <content type='text'></content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/dQw4w9WgXcQ/related"/>
+            <author>
+                <name>undefined</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/undefined</uri>
+                <yt:userId></yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/dQw4w9WgXcQ/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)</media:title>
+                <media:category label='-' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>-</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=dQw4w9WgXcQ' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/>
+                <media:description type='plain'></media:description>
+                <media:keywords>-</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=dQw4w9WgXcQ'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/dQw4w9WgXcQ/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/dQw4w9WgXcQ/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='174'/>
+                <yt:uploaded>2009-12-22T23:00:00.000Z</yt:uploaded>
+                <yt:uploaderId></yt:uploaderId>
+                <yt:videoid id='dQw4w9WgXcQ'>dQw4w9WgXcQ</yt:videoid>
+                <youTubeId id='dQw4w9WgXcQ'>dQw4w9WgXcQ</youTubeId>
+                <media:credit role='uploader' yt:display='undefined' name='undefined'>undefined</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='2910791' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="11643165" viewCount="1746474768"/>
+            <yt:rating numLikes="10478848" numDislikes="1164316"/>
+        </entry>
+</feed>
