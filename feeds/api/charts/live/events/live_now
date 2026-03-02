@@ -1,0 +1,380 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:media='http://search.yahoo.com/mrss/' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:gd='http://schemas.google.com/g/2005' xmlns:yt='http://gdata.youtube.com/schemas/2007'>
+    <id>http://gdata.youtube.com/feeds/api/standardfeeds/us/recently_featured</id>
+    <updated>2010-12-21T18:59:58.000-08:00</updated>
+    <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+    <title type='text'> </title>
+    <logo>http://www.youtube.com/img/pic_youtubelogo_123x63.gif</logo>
+    <author>
+        <name>YouTube</name>
+        <uri>http://www.youtube.com/</uri>
+    </author>
+    <generator version='2.0' uri='http://gdata.youtube.com/'>YouTube data API</generator>
+    <openSearch:totalResults>7</openSearch:totalResults>
+    <openSearch:startIndex>0</openSearch:startIndex>
+    <openSearch:itemsPerPage>7</openSearch:itemsPerPage>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/yKTjM5gmTy0</id>
+            <youTubeId id='yKTjM5gmTy0'>yKTjM5gmTy0</youTubeId>
+            <published>2009-04-30T22:00:00.000Z</published>
+            <updated>2009-04-30T22:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="People &amp; Blogs" term="People &amp; Blogs">People &amp; Blogs</category>
+            <title type='text'>Anthony is Mexican</title>
+            <content type='text'>SEE HOW ANTHONY GOT HURT: http://smosh.com/videos/how-anthony-got-hurt
+Check out new Smosh gear: http://bit.ly/SMOSHstore
+
+Things between Anthony and Ian get muy strange when Anthony finally discovers his true heritage.
+
+http://smosh.com 
+http://twitter.com/smosh 
+http://myspace.com/smosh</content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/yKTjM5gmTy0/related"/>
+            <author>
+                <name>Smosh</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/Smosh</uri>
+                <yt:userId>UCY30JRSgfhYXA6i6xX1erWg</yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/yKTjM5gmTy0/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>Anthony is Mexican</media:title>
+                <media:category label='People &amp; Blogs' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>People &amp; Blogs</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=yKTjM5gmTy0' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/>
+                <media:description type='plain'>SEE HOW ANTHONY GOT HURT: http://smosh.com/videos/how-anthony-got-hurt
+Check out new Smosh gear: http://bit.ly/SMOSHstore
+
+Things between Anthony and Ian get muy strange when Anthony finally discovers his true heritage.
+
+http://smosh.com 
+http://twitter.com/smosh 
+http://myspace.com/smosh</media:description>
+                <media:keywords>smosh, anthony, padilla, ian, hecox, mexico, tacos, burrito</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=yKTjM5gmTy0'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/yKTjM5gmTy0/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/yKTjM5gmTy0/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/yKTjM5gmTy0/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='315'/>
+                <yt:uploaded>2009-04-30T22:00:00.000Z</yt:uploaded>
+                <yt:uploaderId>UCY30JRSgfhYXA6i6xX1erWg</yt:uploaderId>
+                <yt:videoid id='yKTjM5gmTy0'>yKTjM5gmTy0</yt:videoid>
+                <youTubeId id='yKTjM5gmTy0'>yKTjM5gmTy0</youTubeId>
+                <media:credit role='uploader' yt:display='Smosh' name='Smosh'>Smosh</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='25696' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="102787" viewCount="15418147"/>
+            <yt:rating numLikes="92508" numDislikes="10278"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/u9_kahA_wQo</id>
+            <youTubeId id='u9_kahA_wQo'>u9_kahA_wQo</youTubeId>
+            <published>2009-05-14T22:00:00.000Z</published>
+            <updated>2009-05-14T22:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="People &amp; Blogs" term="People &amp; Blogs">People &amp; Blogs</category>
+            <title type='text'>Grammar Police</title>
+            <content type='text'>You can run but you can't hide as Smosh takes to the streets to regulate bad grammar!
+
+GET THE POSTER: http://smosh.com/merch
+ALTERNATE ENDING: http://smosh.com/videos
+
+http://smosh.com
+http://myspace.com/smosh
+http://twitter.com/smosh</content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/u9_kahA_wQo/related"/>
+            <author>
+                <name>Smosh</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/Smosh</uri>
+                <yt:userId>UCY30JRSgfhYXA6i6xX1erWg</yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/u9_kahA_wQo/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>Grammar Police</media:title>
+                <media:category label='People &amp; Blogs' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>People &amp; Blogs</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=u9_kahA_wQo' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/>
+                <media:description type='plain'>You can run but you can't hide as Smosh takes to the streets to regulate bad grammar!
+
+GET THE POSTER: http://smosh.com/merch
+ALTERNATE ENDING: http://smosh.com/videos
+
+http://smosh.com
+http://myspace.com/smosh
+http://twitter.com/smosh</media:description>
+                <media:keywords>smosh, anthony, padilla, ian, hecox, grammer, cops, nozzle</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=u9_kahA_wQo'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/u9_kahA_wQo/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/u9_kahA_wQo/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/u9_kahA_wQo/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='324'/>
+                <yt:uploaded>2009-05-14T22:00:00.000Z</yt:uploaded>
+                <yt:uploaderId>UCY30JRSgfhYXA6i6xX1erWg</yt:uploaderId>
+                <yt:videoid id='u9_kahA_wQo'>u9_kahA_wQo</yt:videoid>
+                <youTubeId id='u9_kahA_wQo'>u9_kahA_wQo</youTubeId>
+                <media:credit role='uploader' yt:display='Smosh' name='Smosh'>Smosh</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='30848' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="123392" viewCount="18508918"/>
+            <yt:rating numLikes="111053" numDislikes="12339"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/iHS_LkYaUVE</id>
+            <youTubeId id='iHS_LkYaUVE'>iHS_LkYaUVE</youTubeId>
+            <published>2009-08-06T22:00:00.000Z</published>
+            <updated>2009-08-06T22:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="People &amp; Blogs" term="People &amp; Blogs">People &amp; Blogs</category>
+            <title type='text'>The Ultimate Shoedown</title>
+            <content type='text'>WATCH THE LOSER GET HUMILIATED: http://smosh.com/videos
+
+When Ian and Anthony are pitted against each other in a high-stakes race, who will claim victory?
+
+http://smosh.com
+http://twitter.com/smosh
+http://facebook.com/smosh
+http://myspace.com/smosh</content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/iHS_LkYaUVE/related"/>
+            <author>
+                <name>Smosh</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/Smosh</uri>
+                <yt:userId>UCY30JRSgfhYXA6i6xX1erWg</yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/iHS_LkYaUVE/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>The Ultimate Shoedown</media:title>
+                <media:category label='People &amp; Blogs' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>People &amp; Blogs</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=iHS_LkYaUVE' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/><media:content url='http://a-yt2009.truehosting.net:80/exp_hd?video_id=iHS_LkYaUVE' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='8'/>
+                <media:description type='plain'>WATCH THE LOSER GET HUMILIATED: http://smosh.com/videos
+
+When Ian and Anthony are pitted against each other in a high-stakes race, who will claim victory?
+
+http://smosh.com
+http://twitter.com/smosh
+http://facebook.com/smosh
+http://myspace.com/smosh</media:description>
+                <media:keywords>smosh, anthony, padilla, ian, hecox, shoes, showdown, fail</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=iHS_LkYaUVE'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/iHS_LkYaUVE/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/iHS_LkYaUVE/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/iHS_LkYaUVE/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='284'/>
+                <yt:uploaded>2009-08-06T22:00:00.000Z</yt:uploaded>
+                <yt:uploaderId>UCY30JRSgfhYXA6i6xX1erWg</yt:uploaderId>
+                <yt:videoid id='iHS_LkYaUVE'>iHS_LkYaUVE</yt:videoid>
+                <youTubeId id='iHS_LkYaUVE'>iHS_LkYaUVE</youTubeId>
+                <media:credit role='uploader' yt:display='Smosh' name='Smosh'>Smosh</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='21029' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="84119" viewCount="12617870"/>
+            <yt:rating numLikes="75707" numDislikes="8411"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/EZjfZLTbnvY</id>
+            <youTubeId id='EZjfZLTbnvY'>EZjfZLTbnvY</youTubeId>
+            <published>2008-01-10T23:00:00.000Z</published>
+            <updated>2008-01-10T23:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="People &amp; Blogs" term="People &amp; Blogs">People &amp; Blogs</category>
+            <title type='text'>Cat Soup</title>
+            <content type='text'>BLOOPERS: http://smosh.com/videos
+
+When Ian comes down with a cold, Anthony helps speed his recovery with an extra-special soup. Now with extra protein!
+
+Song by Discovery of a Lifelong Error: http://myspace.com/discoveryofalifelongerror
+
+http://smosh.com
+http://myspace.com/smosh
+http://twitter.com/smosh</content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/EZjfZLTbnvY/related"/>
+            <author>
+                <name>Smosh</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/Smosh</uri>
+                <yt:userId>UCY30JRSgfhYXA6i6xX1erWg</yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/EZjfZLTbnvY/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>Cat Soup</media:title>
+                <media:category label='People &amp; Blogs' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>People &amp; Blogs</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=EZjfZLTbnvY' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/>
+                <media:description type='plain'>BLOOPERS: http://smosh.com/videos
+
+When Ian comes down with a cold, Anthony helps speed his recovery with an extra-special soup. Now with extra protein!
+
+Song by Discovery of a Lifelong Error: http://myspace.com/discoveryofalifelongerror
+
+http://smosh.com
+http://myspace.com/smosh
+http://twitter.com/smosh</media:description>
+                <media:keywords>smosh, anthony, padilla, ian, hecox, stuffed, animal, cat</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=EZjfZLTbnvY'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/EZjfZLTbnvY/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/EZjfZLTbnvY/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/EZjfZLTbnvY/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='182'/>
+                <yt:uploaded>2008-01-10T23:00:00.000Z</yt:uploaded>
+                <yt:uploaderId>UCY30JRSgfhYXA6i6xX1erWg</yt:uploaderId>
+                <yt:videoid id='EZjfZLTbnvY'>EZjfZLTbnvY</yt:videoid>
+                <youTubeId id='EZjfZLTbnvY'>EZjfZLTbnvY</youTubeId>
+                <media:credit role='uploader' yt:display='Smosh' name='Smosh'>Smosh</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='14968' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="59872" viewCount="8980897"/>
+            <yt:rating numLikes="53885" numDislikes="5987"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/fnCf7sDpVXo</id>
+            <youTubeId id='fnCf7sDpVXo'>fnCf7sDpVXo</youTubeId>
+            <published>2009-03-23T23:00:00.000Z</published>
+            <updated>2009-03-23T23:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="People &amp; Blogs" term="People &amp; Blogs">People &amp; Blogs</category>
+            <title type='text'>How to install VMware Workstation on Windows</title>
+            <content type='text'>A HIGH DEFINITION VIDEO TUTORIAL</content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/fnCf7sDpVXo/related"/>
+            <author>
+                <name>PickardBrownTeaching</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/PickardBrownTeaching</uri>
+                <yt:userId>UCJLhXqlY0zjCO4qQtG4trEA</yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/fnCf7sDpVXo/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>How to install VMware Workstation on Windows</media:title>
+                <media:category label='People &amp; Blogs' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>People &amp; Blogs</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=fnCf7sDpVXo' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/><media:content url='http://a-yt2009.truehosting.net:80/exp_hd?video_id=fnCf7sDpVXo' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='8'/>
+                <media:description type='plain'>A HIGH DEFINITION VIDEO TUTORIAL</media:description>
+                <media:keywords>vmware, windows, install, virtual, computer, computing</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=fnCf7sDpVXo'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/fnCf7sDpVXo/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/fnCf7sDpVXo/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/fnCf7sDpVXo/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='181'/>
+                <yt:uploaded>2009-03-23T23:00:00.000Z</yt:uploaded>
+                <yt:uploaderId>UCJLhXqlY0zjCO4qQtG4trEA</yt:uploaderId>
+                <yt:videoid id='fnCf7sDpVXo'>fnCf7sDpVXo</yt:videoid>
+                <youTubeId id='fnCf7sDpVXo'>fnCf7sDpVXo</youTubeId>
+                <media:credit role='uploader' yt:display='PickardBrownTeaching' name='PickardBrownTeaching'>PickardBrownTeaching</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='213' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="852" viewCount="127812"/>
+            <yt:rating numLikes="7668" numDislikes="852"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/oNXzMBA9VU4</id>
+            <youTubeId id='oNXzMBA9VU4'>oNXzMBA9VU4</youTubeId>
+            <published>2007-09-14T22:00:00.000Z</published>
+            <updated>2007-09-14T22:00:00.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="People &amp; Blogs" term="People &amp; Blogs">People &amp; Blogs</category>
+            <title type='text'>Windows XP Installation Music</title>
+            <content type='text'>The music that you hear when you install Windows XP, welcoming you to the once new version of windows. 
+Made in 2001
+
+Enjoy
+
+©2001-2012 Microsoft Corporation, All Rights Reserved.</content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/oNXzMBA9VU4/related"/>
+            <author>
+                <name>Bennerman1k94</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/Bennerman1k94</uri>
+                <yt:userId>UCmTsWFqi-bfqYMS0FelhZtw</yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/oNXzMBA9VU4/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>Windows XP Installation Music</media:title>
+                <media:category label='People &amp; Blogs' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>People &amp; Blogs</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=oNXzMBA9VU4' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/><media:content url='http://a-yt2009.truehosting.net:80/get_480?video_id=oNXzMBA9VU4' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='14'/>
+                <media:description type='plain'>The music that you hear when you install Windows XP, welcoming you to the once new version of windows. 
+Made in 2001
+
+Enjoy
+
+©2001-2012 Microsoft Corporation, All Rights Reserved.</media:description>
+                <media:keywords>microsoft, windows, xp, music, startup, sound, home, edition</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=oNXzMBA9VU4'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/oNXzMBA9VU4/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/oNXzMBA9VU4/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/oNXzMBA9VU4/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='325'/>
+                <yt:uploaded>2007-09-14T22:00:00.000Z</yt:uploaded>
+                <yt:uploaderId>UCmTsWFqi-bfqYMS0FelhZtw</yt:uploaderId>
+                <yt:videoid id='oNXzMBA9VU4'>oNXzMBA9VU4</yt:videoid>
+                <youTubeId id='oNXzMBA9VU4'>oNXzMBA9VU4</youTubeId>
+                <media:credit role='uploader' yt:display='Bennerman1k94' name='Bennerman1k94'>Bennerman1k94</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='7815' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="31263" viewCount="4689481"/>
+            <yt:rating numLikes="28136" numDislikes="3126"/>
+        </entry>
+        <entry>
+            <id>http://a-yt2009.truehosting.net:80/feeds/api/videos/7jjcAuEYW9M</id>
+            <youTubeId id='7jjcAuEYW9M'>7jjcAuEYW9M</youTubeId>
+            <published>2009-11-14T00:52:31.000Z</published>
+            <updated>2009-11-14T00:52:31.000Z</updated>
+            <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" label="Comedy" term="Comedy">Comedy</category>
+            <title type='text'>The Duck Song 2</title>
+            <content type='text'>Song by Bryant Oden. Video by Forrest Whaley.
+
+Get the merch...
+https://www.theducksongstore.com/
+
+Get the song...
+http://itunes.apple.com/us/album/songdrops-2-20-more-songs/id402367443
+
+Thanks so much for watching and sharing! :)
+______________________________________________
+
+MORE DUCK SONGS:
+http://www.youtube.com/view_play_list?p=D40AE0956511B5EC
+
+OTHER SONGS:
+http://www.youtube.com/songdrops</content>
+            <link rel="http://gdata.youtube.com/schemas/2007#video.related" href="http://a-yt2009.truehosting.net:80/feeds/api/videos/7jjcAuEYW9M/related"/>
+            <author>
+                <name>forrestfire101</name>
+                <uri>http://a-yt2009.truehosting.net:80/feeds/api/users/forrestfire101</uri>
+                <yt:userId>UCOmMUjaCM5koM_nSJ1KVg5Q</yt:userId>
+            </author>
+            <gd:comments>
+                <gd:feedLink href='http://a-yt2009.truehosting.net:80/feeds/api/videos/7jjcAuEYW9M/comments' countHint='530'/>
+            </gd:comments>
+            <media:group>
+                <media:title>The Duck Song 2</media:title>
+                <media:category label='Comedy' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Comedy</media:category>
+                <media:content url='http://a-yt2009.truehosting.net:80/channel_fh264_getvideo?v=7jjcAuEYW9M' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/><media:content url='http://a-yt2009.truehosting.net:80/get_480?video_id=7jjcAuEYW9M' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='14'/><media:content url='http://a-yt2009.truehosting.net:80/exp_hd?video_id=7jjcAuEYW9M' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='8'/>
+                <media:description type='plain'>Song by Bryant Oden. Video by Forrest Whaley.
+
+Get the merch...
+https://www.theducksongstore.com/
+
+Get the song...
+http://itunes.apple.com/us/album/songdrops-2-20-more-songs/id402367443
+
+Thanks so much for watching and sharing! :)
+______________________________________________
+
+MORE DUCK SONGS:
+http://www.youtube.com/view_play_list?p=D40AE0956511B5EC
+
+OTHER SONGS:
+http://www.youtube.com/songdrops</media:description>
+                <media:keywords>duck, comedy, animated, song, drops, music, part, pt</media:keywords>
+                <media:player url='http://www.youtube.com/watch?v=7jjcAuEYW9M'/>
+                <media:thumbnail yt:name='hqdefault' url='http://i.ytimg.com/vi/7jjcAuEYW9M/hqdefault.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='poster' url='http://i.ytimg.com/vi/7jjcAuEYW9M/0.jpg' height='240' width='320' time='00:00:00'/>
+                <media:thumbnail yt:name='default' url='http://i.ytimg.com/vi/7jjcAuEYW9M/0.jpg' height='240' width='320' time='00:00:00'/>
+                <yt:duration seconds='156'/>
+                <yt:uploaded>2009-11-14T00:52:31.000Z</yt:uploaded>
+                <yt:uploaderId>UCOmMUjaCM5koM_nSJ1KVg5Q</yt:uploaderId>
+                <yt:videoid id='7jjcAuEYW9M'>7jjcAuEYW9M</yt:videoid>
+                <youTubeId id='7jjcAuEYW9M'>7jjcAuEYW9M</youTubeId>
+                <media:credit role='uploader' yt:display='forrestfire101' name='forrestfire101'>forrestfire101</media:credit>
+            </media:group>
+            <gd:rating average='5' max='5' min='1' numRaters='220961' rel='http://schemas.google.com/g/2005#overall'/>
+            <yt:statistics favoriteCount="883846" viewCount="132577041"/>
+            <yt:rating numLikes="883846" numDislikes="6460"/>
+        </entry>
+</feed>
