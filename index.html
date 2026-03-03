@@ -1,0 +1,167 @@
+
+<!-- Gamate Hash Home Page Beta-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <meta property="og:title" content="Homepage of doom">
+    <meta property="og:description" content=":3">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body {
+        background-color: #14210e;
+        font-family: system-ui, Roboto;
+        margin: 0;
+      }
+      .maindiv {
+        width: 80%;
+        max-width: 600px;
+        margin: 5em auto;
+        padding: 2em;
+        background-color: #1e2e16;
+        border-radius: 0.5em;
+        box-shadow: 0px 0px 20px #233d20;
+      }
+      @media (max-width: 700px) {
+        .maindiv {
+            margin: 2em auto;
+            width: auto;
+        }
+      }
+      .vignette {
+        background: radial-gradient(ellipse at center, rgba(255,255,255,0) 0%,rgba(0,0,0,1) 100%);
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: -1;
+        opacity: 0;
+        pointer-events: none;
+      }
+      .raindiv {
+        background-image: url('assets/rain.png');
+        image-rendering: pixelated;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: -2;
+        opacity: 0;
+        pointer-events: none;
+      }
+      @keyframes fadethingy {
+        0% {color: #b383ec;text-shadow: #b383ec 0 0 10px;}
+        50% {color: #c2c2c2;text-shadow: #c2c2c2 0 0 10px;}
+        100% {color: #b383ec;text-shadow: #b383ec 0 0 10px;}
+      }
+      button {
+        color: #ffffff;
+        background-color: #312250;
+        border-color: #4f3683;
+        margin: 8px 0px;
+      }
+      img {
+        margin: 2px;
+      }
+      h2 {
+        color: #e2e2e2;
+        margin: 0px;
+      }
+      h4 {
+        color: #c2c2c2;
+        margin: 0px 0px;
+      }
+      p {
+        color: #c2c2c2;
+        margin: 0px 0px 8px;
+      }
+      a {
+        color: #b383ec;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="vignette"></div>
+    <div class="raindiv"></div>
+    <div class="maindiv">
+      <h2>Gamate Hash</h2>
+      <p>welcome to this attempt of a YouTube GData Revival and Extras</p>
+      <a href="/iptv">iptv i guess</a>
+    </div>
+    <div id="musdiv" style="position: fixed; left: 0; bottom: 0; display: none;"><p style="margin: 4px; animation: fadethingy 4s infinite; text-shadow: #fff 0 0 10px;">♪</p></div>
+    <script>
+      var rainStarted;
+
+      function cueRain() {
+        if (rainStarted) return;
+        rainStarted = true;
+
+        var mainDiv = document.getElementsByClassName('maindiv')[0];
+        var rainDiv = document.getElementsByClassName('raindiv')[0];
+        var musDiv = document.getElementById('musdiv');
+
+        var opacity = 0;
+        var rainPosY = 0;
+        var rainSpeed = 32;
+        var rainImgHeightYesThisValueIsHardcodedColonThree = 768;
+        var skyBrightness = 0;
+        var random;
+
+        var audioContext = new window.AudioContext();
+        var bufferSource = audioContext.createBufferSource();
+
+        //rainDiv.style.opacity = '0.2';
+        document.getElementsByClassName('vignette')[0].style.opacity = '1';
+        mainDiv.style.transition = '1s';
+        mainDiv.style.opacity = '0.75';
+        mainDiv.style.backgroundColor = '#1e162e80';
+        mainDiv.style.boxShadow = '0px 0px 20px #29203d80';
+
+        fetch('/assets/lowqualityrain.wav').then((res) => res.arrayBuffer().then((buffer) => audioContext.decodeAudioData(buffer).then((audio) => {
+          bufferSource.buffer = audio; bufferSource.loop = true;
+          gainNode = audioContext.createGain();
+          bufferSource.connect(gainNode);
+          gainNode.connect(audioContext.destination);
+          gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime);
+          gainNode.gain.exponentialRampToValueAtTime(1, audioContext.currentTime + 2);
+          bufferSource.start();
+        })));
+
+        // test thing ashdjdsfbjkda
+        setTimeout(() => {
+          let audioContext = new window.AudioContext();
+          let bufferSource = audioContext.createBufferSource();
+          musDiv.style.display = "unset";
+          fetch('/assets/music/only_you.mp3').then((res) => res.arrayBuffer().then((buffer) => audioContext.decodeAudioData(buffer).then((audio) => {
+            bufferSource.buffer = audio; bufferSource.loop = true;
+            gainNode = audioContext.createGain();
+            bufferSource.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.8, audioContext.currentTime + 2);
+            bufferSource.start();
+            musDiv.firstChild.innerText = "♪ " + "hey pops does this thing work";
+          })));
+        }, 2000);
+
+        function rain() {
+          var random = Math.floor(Math.random() * 2001);
+
+          if (opacity < 0.2) {
+            opacity += 0.002;
+            rainDiv.style.opacity = opacity;
+          }
+
+          rainPosY += rainSpeed;
+          if (rainPosY > rainImgHeightYesThisValueIsHardcodedColonThree) rainPosY -= rainImgHeightYesThisValueIsHardcodedColonThree;
+          rainDiv.style.backgroundPositionY = `${rainPosY}px`;
+
+          document.body.style.backgroundColor = `rgba(${skyBrightness}, ${skyBrightness}, ${skyBrightness}, 1)`;
+          requestAnimationFrame(rain);
+        }
+        console.log("this really is a rain world");
+        requestAnimationFrame(rain);
+      }
+    </script>
+  </body>
+</html>
