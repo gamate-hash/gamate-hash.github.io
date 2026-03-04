@@ -5,7 +5,7 @@ https://haus.webchnl.com/memfs/e9c2e7db-40a0-4a4a-9115-59414e26b616.m3u8
 https://rhine.webchnl.live/memfs/a5ebeea5-d842-43ae-add9-290d59f5593e.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://webchnl.com/assets/img/channelicons/eel_ch.png" group-title="webchnl",Eel Channel
 https://rhine.webchnl.live/memfs/ee44b078-5b16-4484-b054-76079dc2d45c.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://webchnl.com/assets/img/channelicons/spark.png" group-title="webchnl",Spark
+#EXTINF:-1 tvg-id="spark" tvg-url="https://gamate-hash.github.io/spark.xml" tvg-logo="https://webchnl.com/assets/img/channelicons/spark.png" group-title="webchnl",Spark
 https://rhine.webchnl.live/memfs/daad2183-472a-4a6f-ac37-a2934dfccac4.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://webchnl.com/assets/img/channelicons/whiplash.png" group-title="webchnl",Whiplash
 https://haus.webchnl.com/memfs/fe3e4302-97f6-44b1-b407-db8b59256cde.m3u8

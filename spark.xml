@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="ChatGPT">
+  <channel id="spark">
+    <display-name>Spark</display-name>
+  </channel>
+
+  <!-- Runs for ~10 years -->
+  <programme start="20260101000000 +0000" stop="99670101000000 +0000" channel="spark">
+    <title>Spark</title>
+    <desc>Spark</desc>
+  </programme>
+</tv>
