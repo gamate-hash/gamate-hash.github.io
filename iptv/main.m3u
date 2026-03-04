@@ -17,3 +17,5 @@ https://haus.webchnl.com/memfs/fc30cd88-f7c3-4b06-b481-810939220ade.m3u8
 https://rhine.webchnl.live/memfs/39c22a0a-ba5a-4cda-bb74-83108e8e3e69.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://webchnl.com/assets/img/channelicons/bawa.png" group-title="webchnl",bawa
 https://haus.webchnl.com/memfs/e95f15af-aaa6-4334-873b-db0044789c8e.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://live.mistweather.com/channels/logos/wpbb.jpg" group-title="Weather & News",PicelBoi Broadcasting - IntelliSTAR 2 XD (New York)
+https://watch.mistweather.com/hls/wpbb/playlist.m3u8
