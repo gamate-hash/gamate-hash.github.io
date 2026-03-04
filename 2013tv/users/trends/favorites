@@ -110,7 +110,7 @@ window._callbacks_._smash({
           }
         ],
         "title": {
-          "$t": "title"
+          "$t": "WHAR"
         },
         "content": {
           "type": "application/x-shockwave-flash",
