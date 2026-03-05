@@ -3,4 +3,5 @@ Arg 2: video id
 Arg 3: Date (ISO 8601)
 Arg 4: User ID
 Arg 5: Username/Author Name
+Arg 6: description
 {attachtext:{eval:{text:https://gamate-hash.github.io/p2feed}}}
