@@ -21,3 +21,15 @@ https://haus.webchnl.com/memfs/e95f15af-aaa6-4334-873b-db0044789c8e.m3u8
 https://watch.mistweather.com/hls/wpbb/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://webchnl.com/assets/img/banners/flashbak.webp" group-title="webchnl",FlashBAK
 https://rhine.webchnl.live/memfs/d839aad2-f86a-49d9-bef3-e7c4c2b8e9f0.m3u8
+#EXTINF:-1 tvg-name="Totalmusic" tvg-logo="https://webchnl.com/assets/img/channelicons/totalmusic.png" group-title="webchnl",Totalmusic
+https://cdn.global.elektamedia.com/live/c7eds/Totalmusic/SA_LIVE_hls_enc/master.m3u8
+#EXTINF:-1 tvg-name="Totalmusic 80s" tvg-logo="https://webchnl.com/assets/img/channelicons/totalmusic80s.png" group-title="webchnl",Totalmusic 80s
+https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_80s/SA_LIVE_hls_enc/master.m3u8
+#EXTINF:-1 tvg-name="Totalmusic 00s" tvg-logo="https://webchnl.com/assets/img/channelicons/totalmusic00s.png" group-title="webchnl",Totalmusic 00s
+https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_00s/SA_LIVE_hls_enc/master.m3u8
+#EXTINF:-1 tvg-name="Totalmusic Concerts" tvg-logo="https://webchnl.com/assets/img/channelicons/totalmusicconcerts.png" group-title="webchnl",Totalmusic Concerts
+https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Concerts/SA_LIVE_hls_enc/master.m3u8
+#EXTINF:-1 tvg-name="Totalmusic Dance" tvg-logo="https://webchnl.com/assets/img/channelicons/totalmusicdance.png" group-title="webchnl",Totalmusic Dance
+https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Dance/SA_LIVE_hls_enc/master.m3u8
+#EXTINF:-1 tvg-name="Totalmusic Dance" tvg-logo="https://live.mistweather.com/channels/logos/ntnch01.jpg" group-title="Weather & News",ntn24
+https://watch.mistweather.com/hls/ntnch01/playlist.m3u8
