@@ -4,7 +4,7 @@
 // @version      03.07.2026.3
 // @description  Try to take over some sites!
 // @author       GAMATE HASH
-// @match        *://*.*/*
+// @match        *://*/*
 // @icon         https://cdn.discordapp.com/emojis/1291554912806768775.png?size=512
 // @grant        none
 // ==/UserScript==
