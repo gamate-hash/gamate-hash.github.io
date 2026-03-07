@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         BOMB PIZDA
 // @namespace    http://tampermonkey.net/
-// @version      03.07.2026.2
+// @version      03.07.2026.3
 // @description  Try to take over some sites!
 // @author       GAMATE HASH
 // @match        *://*.*/*
@@ -9,7 +9,7 @@
 // @grant        none
 // ==/UserScript==
 
-if (location.host === "ourworldoftext.com") {
+if (location.hostname === "ourworldoftext.com") {
 menu.addOption("Set Socket",
     function () {
     var newSocket = prompt("Enter new socket URL:");
@@ -459,10 +459,11 @@ menu.addOption("Stickman",function() {
             drawFrame(stickstate.x, stickstate.y, FRAMES.idle);
         }
     });
-})
+})} else {
+    console.log("not owot")
 }
 
-if (location.host === "bonzi.gay") {
+if (location.hostname === "bonzi.gay") {
     (function() {
   'use strict';
   var menuContent = `
@@ -590,5 +591,7 @@ ${chatloghtml.innerHTML}
     inject2.style.color = 'lime';
     inject2.setAttribute('data-injected', 'true');
   });
-})();
+});
+} else {
+    console.log("not bonziworld")
 }
