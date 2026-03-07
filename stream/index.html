@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>M3U8 MP4 Recorder</title>
+
+<link rel="stylesheet" href="https://unpkg.com/98.css">
+<link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+
+<style>
+body{
+    background: teal;
+    padding:20px;
+}
+video{
+    width:100%;
+}
+</style>
+</head>
+
+<body>
+
+<div class="window" style="width:650px;">
+<div class="title-bar">
+<div class="title-bar-text">M3U8 MP4 Recorder</div>
+</div>
+
+<div class="window-body">
+
+<label>M3U8 URL</label>
+<input id="url" style="width:100%" placeholder="https://example.com/stream.m3u8">
+
+<br><br>
+
+<button id="load">Play Stream</button>
+<button id="record">Record to MP4</button>
+
+<br><br>
+
+<video id="player" class="video-js vjs-default-skin" controls></video>
+
+<br>
+
+<pre id="log"></pre>
+
+<a id="download" style="display:none">Download MP4</a>
+
+</div>
+</div>
+
+<script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+
+<script src="https://unpkg.com/@ffmpeg/ffmpeg@0.12.6/dist/ffmpeg.min.js"></script>
+
+<script>
+
+const log = (t)=>document.getElementById("log").textContent += t+"\n";
+
+let player = videojs("player");
+
+document.getElementById("load").onclick=()=>{
+    let url=document.getElementById("url").value;
+
+    player.src({
+        src:url,
+        type:"application/x-mpegURL"
+    });
+
+    player.play();
+};
+
+document.getElementById("record").onclick=async()=>{
+
+    const { createFFmpeg, fetchFile } = FFmpeg;
+
+    const ffmpeg = createFFmpeg({ log:true });
+
+    log("Loading FFmpeg...");
+    await ffmpeg.load();
+
+    let m3u8 = document.getElementById("url").value;
+
+    log("Downloading playlist...");
+    let playlist = await fetch(m3u8).then(r=>r.text());
+
+    ffmpeg.FS("writeFile","stream.m3u8",new TextEncoder().encode(playlist));
+
+    log("Processing stream to MP4...");
+
+    await ffmpeg.run(
+        "-protocol_whitelist","file,http,https,tcp,tls",
+        "-i","stream.m3u8",
+        "-c","copy",
+        "output.mp4"
+    );
+
+    log("Exporting MP4...");
+
+    const data = ffmpeg.FS("readFile","output.mp4");
+
+    const url = URL.createObjectURL(
+        new Blob([data.buffer],{type:"video/mp4"})
+    );
+
+    const a = document.getElementById("download");
+    a.href=url;
+    a.download="recording.mp4";
+    a.style.display="block";
+    a.innerText="Download MP4";
+
+    log("Done.");
+};
+
+</script>
+
+</body>
+</html>
