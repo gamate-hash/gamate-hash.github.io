@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         BOMB PIZDA
 // @namespace    http://tampermonkey.net/
-// @version      03.07.2026.3
+// @version      03.07.2026.4
 // @description  Try to take over some sites!
 // @author       GAMATE HASH
 // @match        *://*/*
@@ -10,6 +10,104 @@
 // ==/UserScript==
 
 if (location.hostname === "ourworldoftext.com") {
+menu.addOption('Image Paster', async () => {
+    // Create file input element
+    const fileInput = document.createElement('input');
+    fileInput.type = 'file';
+    fileInput.accept = 'image/*';
+
+    fileInput.onchange = async (e) => {
+        const file = e.target.files[0];
+        if (!file) return;
+
+        // Create image element to process
+        const img = new Image();
+        img.src = URL.createObjectURL(file);
+
+        await new Promise(resolve => img.onload = resolve);
+
+        // Get coordinates from user
+        const x = parseInt(prompt('Enter starting X coordinate:', 20));
+        const y = parseInt(prompt('Enter starting Y coordinate:', 15));
+
+        if (isNaN(x) || isNaN(y)) {
+            alert('Invalid coordinates!');
+            return;
+        }
+
+        // Process image
+        const canvas = document.createElement('canvas');
+        const ctx = canvas.getContext('2d');
+        const maxWidth = 100; // Max width to prevent freezing
+        const maxHeight = 100; // Max height
+
+        // Calculate scaled dimensions
+        let width = img.width;
+        let height = img.height;
+        if (width > maxWidth || height > maxHeight) {
+            const ratio = Math.min(maxWidth / width, maxHeight / height);
+            width = Math.floor(width * ratio);
+            height = Math.floor(height * ratio);
+        }
+
+        canvas.width = width;
+        canvas.height = height;
+        ctx.drawImage(img, 0, 0, width, height);
+
+        // Get pixel data
+        const imageData = ctx.getImageData(0, 0, width, height).data;
+
+        // Paste with delay between operations
+        const delay = 1; // ms between writes
+        let position = 0;
+
+        // Process image in 2-pixel vertical steps
+        for (let py = 0; py < height; py += 2) {
+            for (let px = 0; px < width; px++) {
+                // Get top pixel (color1)
+                const i1 = (py * width + px) * 4;
+                const r1 = imageData[i1];
+                const g1 = imageData[i1 + 1];
+                const b1 = imageData[i1 + 2];
+                const a1 = imageData[i1 + 3];
+
+                // Get bottom pixel (color2) if it exists
+                let r2 = 0, g2 = 0, b2 = 0, a2 = 0;
+                if (py + 1 < height) {
+                    const i2 = ((py + 1) * width + px) * 4;
+                    r2 = imageData[i2];
+                    g2 = imageData[i2 + 1];
+                    b2 = imageData[i2 + 2];
+                    a2 = imageData[i2 + 3];
+                }
+
+                // Skip if both pixels are transparent
+                if (a1 < 128 && a2 < 128) continue;
+
+                // Convert RGB to OWOT color format
+const color1 = rgbToOwotColor(r1, g1, b1);
+const color2 = (py + 1 < height) ? rgbToOwotColor(r2, g2, b2) : null;
+
+                // Write with delay
+                setTimeout(() => {
+                    writeCharToXY('█', color1, x + px, y + py);
+                }, position * delay);
+
+                position++;
+            }
+        }
+
+        alert(`Image will be pasted over ${Math.ceil((position * delay)/1000)} seconds`);
+    };
+
+    // Trigger file selection
+    fileInput.click();
+
+ // Helper function to convert RGB to OWOT color string
+function rgbToOwotColor(r, g, b) {
+    return resolveColorValue(`rgb(${r},${g},${b})`);
+}
+});
 menu.addOption("Set Socket",
     function () {
     var newSocket = prompt("Enter new socket URL:");
@@ -472,7 +570,7 @@ if (location.hostname === "bonzi.gay") {
     <div id='inject1'><a href='#'>Inject webntrack.js</a></div><br>
     <div id='inject2'><a href='#'>Inject flood.js</a></div>
     <div id='klok'><a href='#'>Inject flood.js</a></div>
-    
+
   `;
 try {
      var banthing = document.getElementById('page_ban')
@@ -505,7 +603,7 @@ ${chatloghtml.innerHTML}
 }
 
 
- 
+
   var menuButton = document.createElement('button');
   menuButton.innerText = 'Menu';
   menuButton.style.backgroundColor = 'red';
@@ -513,7 +611,7 @@ ${chatloghtml.innerHTML}
   menuButton.style.position = 'fixed';
   menuButton.style.top = '10px';
   menuButton.style.right = '10px';
- 
+
   var menuContainer = document.createElement('div');
   menuContainer.id = 'menuf';
   menuContainer.style.background = 'linear-gradient(180deg, black, gray)';
@@ -534,30 +632,30 @@ ${chatloghtml.innerHTML}
     </div>
   `;
   menuContainer.style.display = 'none';
- 
+
   document.body.appendChild(menuButton);
   document.body.appendChild(menuContainer);
- 
+
   var robotoLink = document.createElement('link');
   robotoLink.rel = 'stylesheet';
   robotoLink.href = 'https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap';
   document.head.appendChild(robotoLink);
- 
+
   menuButton.addEventListener('click', function() {
     menuContainer.style.display = 'block';
     menuButton.style.display = 'none';
   });
- 
+
   var closeButton = menuContainer.querySelector('#closeBtn');
   closeButton.addEventListener('click', function() {
     menuContainer.style.display = 'none';
     menuButton.style.display = 'block';
   });
- 
+
   var inject1 = menuContainer.querySelector('#inject1 a');
   var inject2 = menuContainer.querySelector('#inject2 a');
   var klok = menuContainer.querySelector('#klok a');
- 
+
   inject1.addEventListener('click', function(e) {
     e.preventDefault();
     if (inject1.getAttribute('data-injected') === 'true') return;
