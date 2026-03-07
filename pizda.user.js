@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         BOMB PIZDA
 // @namespace    http://tampermonkey.net/
-// @version      03.07.2026
+// @version      03.07.2026.2
 // @description  Try to take over some sites!
 // @author       GAMATE HASH
 // @match        *://*.*/*
@@ -9,7 +9,7 @@
 // @grant        none
 // ==/UserScript==
 
-if (typeof menu !== 'undefined' && typeof w !== 'undefined') {
+if (location.host === "ourworldoftext.com") {
 menu.addOption("Set Socket",
     function () {
     var newSocket = prompt("Enter new socket URL:");
