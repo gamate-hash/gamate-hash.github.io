@@ -87,81 +87,8 @@
       <h2>Gamate Hash</h2>
       <p>welcome to this attempt of a YouTube GData Revival and Extras</p>
       <a href="/iptv">iptv i guess</a>
+      <a href="/pizda.user.js">bomb pizda</a>
     </div>
-    <div id="musdiv" style="position: fixed; left: 0; bottom: 0; display: none;"><p style="margin: 4px; animation: fadethingy 4s infinite; text-shadow: #fff 0 0 10px;">♪</p></div>
-    <script>
-      var rainStarted;
-
-      function cueRain() {
-        if (rainStarted) return;
-        rainStarted = true;
-
-        var mainDiv = document.getElementsByClassName('maindiv')[0];
-        var rainDiv = document.getElementsByClassName('raindiv')[0];
-        var musDiv = document.getElementById('musdiv');
-
-        var opacity = 0;
-        var rainPosY = 0;
-        var rainSpeed = 32;
-        var rainImgHeightYesThisValueIsHardcodedColonThree = 768;
-        var skyBrightness = 0;
-        var random;
-
-        var audioContext = new window.AudioContext();
-        var bufferSource = audioContext.createBufferSource();
-
-        //rainDiv.style.opacity = '0.2';
-        document.getElementsByClassName('vignette')[0].style.opacity = '1';
-        mainDiv.style.transition = '1s';
-        mainDiv.style.opacity = '0.75';
-        mainDiv.style.backgroundColor = '#1e162e80';
-        mainDiv.style.boxShadow = '0px 0px 20px #29203d80';
-
-        fetch('/assets/lowqualityrain.wav').then((res) => res.arrayBuffer().then((buffer) => audioContext.decodeAudioData(buffer).then((audio) => {
-          bufferSource.buffer = audio; bufferSource.loop = true;
-          gainNode = audioContext.createGain();
-          bufferSource.connect(gainNode);
-          gainNode.connect(audioContext.destination);
-          gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime);
-          gainNode.gain.exponentialRampToValueAtTime(1, audioContext.currentTime + 2);
-          bufferSource.start();
-        })));
-
-        // test thing ashdjdsfbjkda
-        setTimeout(() => {
-          let audioContext = new window.AudioContext();
-          let bufferSource = audioContext.createBufferSource();
-          musDiv.style.display = "unset";
-          fetch('/assets/music/only_you.mp3').then((res) => res.arrayBuffer().then((buffer) => audioContext.decodeAudioData(buffer).then((audio) => {
-            bufferSource.buffer = audio; bufferSource.loop = true;
-            gainNode = audioContext.createGain();
-            bufferSource.connect(gainNode);
-            gainNode.connect(audioContext.destination);
-            gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime);
-            gainNode.gain.exponentialRampToValueAtTime(0.8, audioContext.currentTime + 2);
-            bufferSource.start();
-            musDiv.firstChild.innerText = "♪ " + "hey pops does this thing work";
-          })));
-        }, 2000);
-
-        function rain() {
-          var random = Math.floor(Math.random() * 2001);
-
-          if (opacity < 0.2) {
-            opacity += 0.002;
-            rainDiv.style.opacity = opacity;
-          }
-
-          rainPosY += rainSpeed;
-          if (rainPosY > rainImgHeightYesThisValueIsHardcodedColonThree) rainPosY -= rainImgHeightYesThisValueIsHardcodedColonThree;
-          rainDiv.style.backgroundPositionY = `${rainPosY}px`;
-
-          document.body.style.backgroundColor = `rgba(${skyBrightness}, ${skyBrightness}, ${skyBrightness}, 1)`;
-          requestAnimationFrame(rain);
-        }
-        console.log("this really is a rain world");
-        requestAnimationFrame(rain);
-      }
-    </script>
+    <script src="https://youtomb-mobile.github.io/shark.js"></script>
   </body>
 </html>
