@@ -33,7 +33,7 @@ https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Concerts/SA_LIVE_hls_en
 https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Dance/SA_LIVE_hls_enc/master.m3u8
 #EXTINF:-1 tvg-name="" tvg-logo="https://gamate-hash.github.io/img/nopicture.png" group-title="Weather & News",ntn24
 https://watch.mistweather.com/hls/ntnch01/playlist.m3u8
-#EXTINF:-1 tvg-name="" tvg-logo="https://gamate-hash.github.io/img/nopicture.png" group-title="Weather & News" group-title="Other",Oak Ridge TV
+#EXTINF:-1 tvg-name="" tvg-logo="https://gamate-hash.github.io/img/nopicture.png" group-title="Other",Oak Ridge TV
 https://ch3.tvs.gcpw.art/stream_480p.m3u8
-#EXTINF:-1 tvg-name="" tvg-logo="https://gamate-hash.github.io/img/nopicture.png" group-title="Weather & News" group-title="Other",Greenhill Public Access
+#EXTINF:-1 tvg-name="" tvg-logo="https://gamate-hash.github.io/img/nopicture.png" group-title="Other",Greenhill Public Access
 https://ch2.tvs.gcpw.art/stream_480p.m3u8
