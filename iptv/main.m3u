@@ -39,3 +39,5 @@ https://ch3.tvs.gcpw.art/stream_480p.m3u8
 https://ch2.tvs.gcpw.art/stream_480p.m3u8
 #EXTINF:-1 tvg-name="" tvg-logo="https://gamate-hash.github.io/img/nopicture.png" group-title="Misc",PicelBoi Broadcasting Television
 https://watch.mistweather.com/hls/wpbb-tv/playlist.m3u8
+#EXTINF:-1 tvg-name="" tvg-logo="https://gamate-hash.github.io/img/nopicture.png" group-title="Weather & News",jibbosh 1
+https://publish.almora.tv:8888/cpri-dt1/index.m3u8
