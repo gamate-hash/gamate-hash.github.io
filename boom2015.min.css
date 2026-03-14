@@ -1,0 +1,60 @@
+:root {
+  --pink: #ef028e;
+  --yellow: #f5ed4c;
+  --blue: #53b9e9;
+  --purple: #89308a;
+}
+
+body {
+  background: linear-gradient(135deg, var(--blue), var(--purple));
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background: var(--pink);
+  padding: 16px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  color: black;
+  border-left: 6px solid var(--pink);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+button {
+  background: var(--yellow);
+  color: black;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: var(--pink);
+  color: white;
+}
+
+a {
+  color: var(--blue);
+  font-weight: bold;
+}
+
+.highlight {
+  background: var(--yellow);
+  color: black;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
