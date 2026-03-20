@@ -1,0 +1,1 @@
+javascript:(()=>{let s=document.createElement('script');s.src='https://gamate-hash.github.io/cakeflood.js';s.onload=()=>console.log('flood.js loaded');document.body.appendChild(s);})();
