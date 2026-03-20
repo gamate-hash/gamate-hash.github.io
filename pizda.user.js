@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         BOMB PIZDA
 // @namespace    http://tampermonkey.net/
-// @version      03.07.2026.4
+// @version      03.20.2026.1
 // @description  Try to take over some sites!
 // @author       GAMATE HASH
 // @match        *://*/*
