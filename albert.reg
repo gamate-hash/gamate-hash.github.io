@@ -1,0 +1,30 @@
+Windows Registry Editor Version 5.00
+
+; albert quirky
+[HKEY_LOCAL_MACHINE\DRIVERS\DriverDatabase\DriverPackages\display.inf_amd64_35d5534e5de21a4b\Strings]
+msbdaname="McDonalds Kiosk GPU"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Paint]
+@="Open with Paint"
+"Icon"="mspaint.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Paint\command]
+@="mspaint.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome]
+
+"URLBlocklist"="sigeonpex.com","*"
+
+"URLAllowlist"=multi_sz:"github.io","youtube.com","weather.com","xbox.com"
+
+"ExtensionInstallForcelist"=multi_sz:"djjpllkkkfobicnffejagpfbnkmgpggb;https://clients2.google.com/service/update2/crx"
+
+"BlockAccessToChromeWebStore"=dword:00000001
+
+"HomepageLocation"="https://weather.com"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon]
+"Shell"="chrome --kiosk https://gamate-hash.github.io/tv --no-first-run --disable-infobars"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+"Scancode Map"=hex:00,00,00,00,00,00,00,00,03,00,00,00,4d,e0,1d,e0,4b,e0,1d,00,00,00,00,00
