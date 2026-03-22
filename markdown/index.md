@@ -1,0 +1,4 @@
+# THIS IS A TESTING PAGE.
+[GET REAL!!!](https://en.wikipedia.org/w/index.php?title=Special:Block&wpTarget=Hazard-Bot&wpExpiry=indefinite&wpHardBlock=1&wpAutoBlock=0&wpCreateAccount=0&wpReason=other&wpReason-other=sigeon%20pex)
+<img src="">
+<td class="infobox-data"><b><span style="border:2px solid;font-variant:small-caps"><a href="https://en.wikipedia.org/wiki/User:Hazard-SJ" title="User:Hazard-SJ"><span style="background:#00008B;color:#FFF">&nbsp;Hazard-SJ&nbsp;</span></a><a href="https://en.wikipedia.org/wiki/User_talk:Hazard-SJ" title="User talk:Hazard-SJ"><span style="color:#00008B;background:red">&nbsp;✈&nbsp;</span></a></span></b></td>
