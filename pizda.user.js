@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         BOMB PIZDA
 // @namespace    http://tampermonkey.net/
-// @version      03.27.2026.1
+// @version      03.27.2026.2
 // @description  Try to take over some sites!
 // @author       GAMATE HASH
 // @match        *://*/*
 // @icon         https://cdn.discordapp.com/emojis/1291554912806768775.png?size=512
 // @grant        none
+// @updateURL    https://gamate-hash.github.io/pizda.user.js
 // ==/UserScript==
 
 if (location.hostname === "ourworldoftext.com") {
@@ -15,7 +16,7 @@ let protectedTextRunner = undefined;
 
 menu.addCheckboxOption(
     "Protected Text",
-    
+
     // checkedAction
     function () {
         protectedTextRunner = (function () {
