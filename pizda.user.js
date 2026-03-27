@@ -10,6 +10,76 @@
 // ==/UserScript==
 
 if (location.hostname === "ourworldoftext.com") {
+// global variable to hold the protection system
+let protectedTextRunner = undefined;
+
+menu.addCheckboxOption(
+    "Protected Text",
+    
+    // checkedAction
+    function () {
+        protectedTextRunner = (function () {
+            var protected_text = {};
+
+            var get_key = function (tx, ty, cx, cy) {
+                return tx + "," + ty + "," + cx + "," + cy;
+            };
+
+            w.on("write", function (e) {
+                protected_text[get_key(e.tileX, e.tileY, e.charX, e.charY)] = {
+                    char: e.char,
+                    color: e.color,
+                    bgColor: e.bgColor,
+                    deco: [e.bold, e.italic, e.underline, e.strikethrough]
+                };
+            });
+
+            var interval = setInterval(function () {
+                if (!protectedTextRunner) {
+                    clearInterval(interval);
+                    return;
+                }
+
+                for (var key in protected_text) {
+                    var coords = key.split(",");
+                    var tx = parseInt(coords[0]);
+                    var ty = parseInt(coords[1]);
+                    var cx = parseInt(coords[2]);
+                    var cy = parseInt(coords[3]);
+
+                    var val = protected_text[key];
+
+                    var curChar = getChar(tx, ty, cx, cy);
+                    var curColor = getCharColor(tx, ty, cx, cy);
+
+                    if (curChar !== val.char || curColor !== val.color) {
+                        writeCharToXY(
+                            val.char,
+                            val.color,
+                            tx * tileC + cx,
+                            ty * tileR + cy,
+                            val.bgColor,
+                            val.deco[0],
+                            val.deco[1],
+                            val.deco[2],
+                            val.deco[3]
+                        );
+                    }
+                }
+            }, 200);
+
+            return true;
+        })();
+    },
+
+    // uncheckedAction
+    function () {
+        protectedTextRunner = undefined;
+    },
+
+    // default checked state
+    false
+);
 menu.addOption('Image Paster', async () => {
     // Create file input element
     const fileInput = document.createElement('input');
