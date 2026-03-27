@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         BOMB PIZDA
 // @namespace    http://tampermonkey.net/
-// @version      03.27.2026.2
+// @version      03.27.2026.3
 // @description  Try to take over some sites!
 // @author       GAMATE HASH
 // @match        *://*/*
@@ -81,6 +81,10 @@ menu.addCheckboxOption(
     // default checked state
     false
 );
+menu.addOption(
+    "Enable Perms",
+    (function() {alert("every permission activated!");Permissions.can_admin = function(){return true}; Permissions.can_chat = function(){return true}; Permissions.can_color_cell = function(){return true}; Permissions.can_color_text = function(){return true}; Permissions.can_coordlink = function(){return true}; Permissions.can_edit_tile = function(){return true}; Permissions.can_go_to_coord = function(){return true}; Permissions.can_paste = function(){return true}; Permissions.can_protect_tiles = function(){return true}; Permissions.can_read = function(){return true}; Permissions.can_show_cursor = function(){return true}; Permissions.can_urllink = function(){return true}; Permissions.can_write = function(){return true};})
+)
 menu.addOption('Image Paster', async () => {
     // Create file input element
     const fileInput = document.createElement('input');
