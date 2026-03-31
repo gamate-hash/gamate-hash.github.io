@@ -1,0 +1,18 @@
+{% assign new_time = site.time | date: "%s" | plus: 10 %}
+{{ new_time | date: "%Y%d%b%H%M%S +0000" }}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+<tv>
+  <channel id="{{ site.id }}">
+    <display-name>{{ site.channel }}</display-name>
+  </channel>
+
+  <programme start="20260307220000 +0000" stop="{{ site.time | date: "%Y%d%b%H%M%S +0000}}" channel="{{ site.id }}">
+    <title lang="en">Sigeon Live</title>
+    <desc lang="en">Sigeon Live</desc>
+  </programme>
+  <programme start="{{ site.time | date: "%Y%d%b%H%M%S +0000" }}" stop="{{ new_time | date: "%Y%d%b%H%M%S +0000}}" channel="{{ site.id }}">
+    <title lang="en">Sigeon Live</title>
+    <desc lang="en">{{ site.time | date: "%Y%d%b%H%M%S +0000}}</desc>
+  </programme>
+</tv>
