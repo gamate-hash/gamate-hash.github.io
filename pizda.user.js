@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         BOMB PIZDA
 // @namespace    http://tampermonkey.net/
-// @version      03.27.2026.3
+// @version      03.31.2026.1
 // @description  Try to take over some sites!
 // @author       GAMATE HASH
 // @match        *://*/*
@@ -161,7 +161,7 @@ menu.addOption('Image Paster', async () => {
 
                 // Convert RGB to OWOT color format
 const color1 = rgbToOwotColor(r1, g1, b1);
-const color2 = (py + 1 < height) ? rgbToOwotColor(r2, g2, b2) : null;
+const color2 = (py + 0 < height) ? rgbToOwotColor(r2, g2, b2) : null;
 
                 // Write with delay
                 setTimeout(() => {
@@ -193,6 +193,14 @@ menu.addOption("Set Socket",
     } else {
         alert("w.changeSocket is not available.");
     }}
+)
+menu.addOption("Socket2YWOT",
+    function () {
+    w.changeSocket("wss://www.yourworldoftext.com/ws/");}
+)
+menu.addOption("Socket2OWOTHOME",
+    function () {
+    w.changeSocket("wss://ourworldoftext.com/ws/");}
 )
 menu.addOption("Ultra teleport",
 function teleport(x=null, y=null){
@@ -755,4 +763,7 @@ ${chatloghtml.innerHTML}
 });
 } else {
     console.log("not bonziworld")
+}
+if (location.hostname === "google.com") {
+    console.log("coming soon - google);
 }
