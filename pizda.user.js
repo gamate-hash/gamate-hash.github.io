@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         BOMB PIZDA
 // @namespace    http://tampermonkey.net/
-// @version      03.31.2026.1
+// @version      03.31.2026.2
 // @description  Try to take over some sites!
 // @author       GAMATE HASH
 // @match        *://*/*
@@ -765,5 +765,5 @@ ${chatloghtml.innerHTML}
     console.log("not bonziworld")
 }
 if (location.hostname === "google.com") {
-    console.log("coming soon - google);
+    console.log("coming soon - google");
 }
