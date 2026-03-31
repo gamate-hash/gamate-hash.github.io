@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         BOMB PIZDA
 // @namespace    http://tampermonkey.net/
-// @version      03.31.2026.2
+// @version      03.31.2026.3
 // @description  Try to take over some sites!
 // @author       GAMATE HASH
 // @match        *://*/*
@@ -14,6 +14,33 @@ if (location.hostname === "ourworldoftext.com") {
 // global variable to hold the protection system
 let protectedTextRunner = undefined;
 
+var tms;
+
+menu.addCheckboxOption(
+  "TacoSpam",
+  function () {
+    // checked → start
+    tms = setInterval(() => {
+      for (let x = 0; x <= 5; x++) {
+        for (let y = 0; y <= 5; y++) {
+          writeCharToXY(
+            '🌮',
+            0,
+            tileC * currentPosition[0] + currentPosition[2] + x,
+            tileR * currentPosition[1] + currentPosition[3] + y
+          );
+        }
+      }
+    }, 0x19);
+  },
+  function () {
+    // unchecked → stop
+    clearInterval(tms);
+    tms = undefined;
+  },
+  false
+);
+    
 menu.addCheckboxOption(
     "Protected Text",
 
