@@ -40,7 +40,7 @@ menu.addCheckboxOption(
   },
   false
 );
-    
+
 menu.addCheckboxOption(
     "Protected Text",
 
@@ -210,7 +210,7 @@ for (let py = 0; py < height; py += 2) {
 function rgbToOwotColor(r, g, b) {
     return resolveColorValue(`rgb(${r},${g},${b})`);
 }
-});
+    }});
 menu.addOption("Set Socket",
     function () {
     var newSocket = prompt("Enter new socket URL:");
