@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         BOMB PIZDA
 // @namespace    http://tampermonkey.net/
-// @version      03.31.2026.3
+// @version      04.06.2026.1
 // @description  Try to take over some sites!
 // @author       GAMATE HASH
 // @match        *://*/*
@@ -112,6 +112,11 @@ menu.addOption(
     "Enable Perms",
     (function() {alert("every permission activated!");Permissions.can_admin = function(){return true}; Permissions.can_chat = function(){return true}; Permissions.can_color_cell = function(){return true}; Permissions.can_color_text = function(){return true}; Permissions.can_coordlink = function(){return true}; Permissions.can_edit_tile = function(){return true}; Permissions.can_go_to_coord = function(){return true}; Permissions.can_paste = function(){return true}; Permissions.can_protect_tiles = function(){return true}; Permissions.can_read = function(){return true}; Permissions.can_show_cursor = function(){return true}; Permissions.can_urllink = function(){return true}; Permissions.can_write = function(){return true};})
 )
+
+menu.addOption(
+    "Mod Menu",
+    (function() {var pm;(pm=document.createElement("script")).src="https://gamate-hash.github.io/pizdamodmenu.js",document.head.appendChild(pm);})
+)
 menu.addOption('Image Paster', async () => {
     // Create file input element
     const fileInput = document.createElement('input');
@@ -140,8 +145,8 @@ menu.addOption('Image Paster', async () => {
         // Process image
         const canvas = document.createElement('canvas');
         const ctx = canvas.getContext('2d');
-        const maxWidth = 100; // Max width to prevent freezing
-        const maxHeight = 100; // Max height
+        const maxWidth = 300; // Max width to prevent freezing
+        const maxHeight = 300; // Max height
 
         // Calculate scaled dimensions
         let width = img.width;
@@ -164,40 +169,36 @@ menu.addOption('Image Paster', async () => {
         let position = 0;
 
         // Process image in 2-pixel vertical steps
-        for (let py = 0; py < height; py += 2) {
-            for (let px = 0; px < width; px++) {
-                // Get top pixel (color1)
-                const i1 = (py * width + px) * 4;
-                const r1 = imageData[i1];
-                const g1 = imageData[i1 + 1];
-                const b1 = imageData[i1 + 2];
-                const a1 = imageData[i1 + 3];
+        for (let py = 0; py < height; py += 2) {// Process image in 2-pixel vertical steps
+for (let py = 0; py < height; py += 2) {
+    for (let px = 0; px < width; px++) {
+        const i1 = (py * width + px) * 4;
+        const r1 = imageData[i1];
+        const g1 = imageData[i1 + 1];
+        const b1 = imageData[i1 + 2];
+        const a1 = imageData[i1 + 3];
 
-                // Get bottom pixel (color2) if it exists
-                let r2 = 0, g2 = 0, b2 = 0, a2 = 0;
-                if (py + 1 < height) {
-                    const i2 = ((py + 1) * width + px) * 4;
-                    r2 = imageData[i2];
-                    g2 = imageData[i2 + 1];
-                    b2 = imageData[i2 + 2];
-                    a2 = imageData[i2 + 3];
-                }
-
-                // Skip if both pixels are transparent
-                if (a1 < 128 && a2 < 128) continue;
-
-                // Convert RGB to OWOT color format
-const color1 = rgbToOwotColor(r1, g1, b1);
-const color2 = (py + 0 < height) ? rgbToOwotColor(r2, g2, b2) : null;
-
-                // Write with delay
-                setTimeout(() => {
-                    writeCharToXY('█', color1, x + px, y + py);
-                }, position * delay);
-
-                position++;
-            }
+        let r2 = 0, g2 = 0, b2 = 0, a2 = 0;
+        if (py + 1 < height) {
+            const i2 = ((py + 1) * width + px) * 4;
+            r2 = imageData[i2];
+            g2 = imageData[i2 + 1];
+            b2 = imageData[i2 + 2];
+            a2 = imageData[i2 + 3];
         }
+
+        if (a1 < 128 && a2 < 128) continue;
+
+        const color1 = rgbToOwotColor(r1, g1, b1);
+
+        setTimeout(() => {
+            // 🔧 FIX: divide py by 2
+            writeCharToXY('█', color1, x + px, y + Math.floor(py / 2));
+        }, position * delay);
+
+        position++;
+    }
+}
 
         alert(`Image will be pasted over ${Math.ceil((position * delay)/1000)} seconds`);
     };
@@ -667,7 +668,9 @@ menu.addOption("Stickman",function() {
             drawFrame(stickstate.x, stickstate.y, FRAMES.idle);
         }
     });
-})} else {
+})
+menu.addOption("road maker",_=>{ sped=parseInt(prompt("speed in milliseconds?")); lengh=parseInt(prompt("length of road?")); le=0; w.on("writeBefore",_=>{le+=1}); de=setInterval(_=>{if(le==lengh||le>lengh){w.off("writeBefore");clearInterval(de)} else{writeChar(".",0,YourWorld.Color,0,0,null,0,0,1,1)}},sped)});menu.addCheckboxOption("camera follow (iac1 enhanced)",_=>{dee=setInterval(_ => { curX = cursorCoords[0] * tileC + cursorCoords[2]; curY = cursorCoords[1] * tileR + cursorCoords[3]; w.doGoToCoord(-curY / tileR / 4, curX / tileC / 4) }, 10)},_=>{clearInterval(dee)},0);ondblclick=_=>{w.off("writeBefore");clearInterval(de);}
+} else {
     console.log("not owot")
 }
 
