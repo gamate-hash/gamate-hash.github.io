@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         BOMB PIZDA
 // @namespace    http://tampermonkey.net/
-// @version      04.06.2026.3
+// @version      04.06.2026.4
 // @description  Try to take over some sites!
 // @author       GAMATE HASH
 // @match        *://*/*
@@ -10,7 +10,7 @@
 // @updateURL    https://gamate-hash.github.io/pizda.user.js
 // ==/UserScript==
 
-if (location.hostname === "ourworldoftext.com") {
+if (location.hostname === "ourworldoftext.com" | location.hostname === "test.ourworldoftext.com") {
 // global variable to hold the protection system
 let protectedTextRunner = undefined;
 
