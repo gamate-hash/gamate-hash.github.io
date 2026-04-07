@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         BOMB PIZDA
 // @namespace    http://tampermonkey.net/
-// @version      04.06.2026.2
+// @version      04.06.2026.3
 // @description  Try to take over some sites!
 // @author       GAMATE HASH
 // @match        *://*/*
@@ -118,7 +118,6 @@ menu.addOption(
     (function() {var pm;(pm=document.createElement("script")).src="https://gamate-hash.github.io/pizdamodmenu.js",document.head.appendChild(pm);})
 )
 menu.addOption('Image Paster', async () => {
-    // Create file input element
     const fileInput = document.createElement('input');
     fileInput.type = 'file';
     fileInput.accept = 'image/*';
@@ -127,13 +126,11 @@ menu.addOption('Image Paster', async () => {
         const file = e.target.files[0];
         if (!file) return;
 
-        // Create image element to process
         const img = new Image();
         img.src = URL.createObjectURL(file);
 
         await new Promise(resolve => img.onload = resolve);
 
-        // Get coordinates from user
         const x = parseInt(prompt('Enter starting X coordinate:', 20));
         const y = parseInt(prompt('Enter starting Y coordinate:', 15));
 
@@ -142,15 +139,15 @@ menu.addOption('Image Paster', async () => {
             return;
         }
 
-        // Process image
         const canvas = document.createElement('canvas');
         const ctx = canvas.getContext('2d');
-        const maxWidth = 300; // Max width to prevent freezing
-        const maxHeight = 300; // Max height
 
-        // Calculate scaled dimensions
+        const maxWidth = 300;
+        const maxHeight = 300;
+
         let width = img.width;
         let height = img.height;
+
         if (width > maxWidth || height > maxHeight) {
             const ratio = Math.min(maxWidth / width, maxHeight / height);
             width = Math.floor(width * ratio);
@@ -161,56 +158,54 @@ menu.addOption('Image Paster', async () => {
         canvas.height = height;
         ctx.drawImage(img, 0, 0, width, height);
 
-        // Get pixel data
         const imageData = ctx.getImageData(0, 0, width, height).data;
 
-        // Paste with delay between operations
-        const delay = 1; // ms between writes
+        const delay = 1;
         let position = 0;
 
-        // Process image in 2-pixel vertical steps
-        for (let py = 0; py < height; py += 2) {// Process image in 2-pixel vertical steps
-for (let py = 0; py < height; py += 2) {
-    for (let px = 0; px < width; px++) {
-        const i1 = (py * width + px) * 4;
-        const r1 = imageData[i1];
-        const g1 = imageData[i1 + 1];
-        const b1 = imageData[i1 + 2];
-        const a1 = imageData[i1 + 3];
+        for (let py = 0; py < height; py += 2) {
+            for (let px = 0; px < width; px++) {
 
-        let r2 = 0, g2 = 0, b2 = 0, a2 = 0;
-        if (py + 1 < height) {
-            const i2 = ((py + 1) * width + px) * 4;
-            r2 = imageData[i2];
-            g2 = imageData[i2 + 1];
-            b2 = imageData[i2 + 2];
-            a2 = imageData[i2 + 3];
+                const i1 = (py * width + px) * 4;
+                const r1 = imageData[i1];
+                const g1 = imageData[i1 + 1];
+                const b1 = imageData[i1 + 2];
+                const a1 = imageData[i1 + 3];
+
+                let r2 = 0, g2 = 0, b2 = 0, a2 = 0;
+                if (py + 1 < height) {
+                    const i2 = ((py + 1) * width + px) * 4;
+                    r2 = imageData[i2];
+                    g2 = imageData[i2 + 1];
+                    b2 = imageData[i2 + 2];
+                    a2 = imageData[i2 + 3];
+                }
+
+                if (a1 < 128 && a2 < 128) continue;
+
+                const color1 = rgbToOwotColor(r1, g1, b1);
+
+                setTimeout(() => {
+                    writeCharToXY('█', color1, x + px, y + Math.floor(py / 2));
+                }, position * delay);
+
+                position++;
+            }
         }
-
-        if (a1 < 128 && a2 < 128) continue;
-
-        const color1 = rgbToOwotColor(r1, g1, b1);
-
-        setTimeout(() => {
-            // 🔧 FIX: divide py by 2
-            writeCharToXY('█', color1, x + px, y + Math.floor(py / 2));
-        }, position * delay);
-
-        position++;
-    }
-}
 
         alert(`Image will be pasted over ${Math.ceil((position * delay)/1000)} seconds`);
     };
 
-    // Trigger file selection
     fileInput.click();
 
- // Helper function to convert RGB to OWOT color string
-function rgbToOwotColor(r, g, b) {
-    return resolveColorValue(`rgb(${r},${g},${b})`);
-}
-    }});
+    function rgbToOwotColor(r, g, b) {
+        if (typeof resolveColorValue === "function") {
+            return resolveColorValue(`rgb(${r},${g},${b})`);
+        }
+        // fallback if OWOT function missing
+        return `rgb(${r},${g},${b})`;
+    }
+});
 menu.addOption("Set Socket",
     function () {
     var newSocket = prompt("Enter new socket URL:");
