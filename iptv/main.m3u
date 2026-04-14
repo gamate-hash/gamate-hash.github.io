@@ -5,8 +5,8 @@ https://haus.webchnl.com/memfs/e9c2e7db-40a0-4a4a-9115-59414e26b616.m3u8
 https://rhine.webchnl.live/memfs/a5ebeea5-d842-43ae-add9-290d59f5593e.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://webchnl.com/assets/img/channelicons/eel_ch.png" group-title="webchnl",Eel Channel
 https://rhine.webchnl.live/memfs/ee44b078-5b16-4484-b054-76079dc2d45c.m3u8
-#EXTINF:-1 tvg-id="test" tvg-url="https://gamate-hash.github.io/guide/test.xml" tvg-logo="https://webchnl.com/assets/img/channelicons/spark.png" group-title="webchnl",Spark
-https://rhine.webchnl.live/memfs/daad2183-472a-4a6f-ac37-a2934dfccac4.m3u8
+#EXTINF:-1 tvg-id="test" tvg-url="https://gamate-hash.github.io/guide/test.xml" tvg-logo="https://webchnl.com/assets/img/channelicons/spark.png" group-title="webchnl",Spark/Quant
+https://haus.webchnl.com/memfs/4b5bb625-7942-4025-b571-dd464a8968f0.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://webchnl.com/assets/img/channelicons/whiplash.png" group-title="webchnl",Whiplash
 https://haus.webchnl.com/memfs/fe3e4302-97f6-44b1-b407-db8b59256cde.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://webchnl.com/assets/img/channelicons/whiplash2.png" group-title="webchnl",Whiplash 2
@@ -43,3 +43,5 @@ https://watch.mistweather.com/hls/wpbb-tv/playlist.m3u8
 https://publish.almora.tv:8888/cpri-dt1/index.m3u8
 #EXTINF:-1 tvg-name="" tvg-logo="https://gamate-hash.github.io/img/nopicture.png" group-title="Misc",TVSeagate Live
 https://live20.bozztv.com/akamaissh101/ssh101/tvseagate/chunks.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://webchnl.com/assets/img/channelicons/toonbox.png" group-title="webchnl",Toonbox/Skip
+https://rhine.webchnl.live/memfs/f4a9ef8b-521a-432e-87bf-c2bcebe9405a.m3u8
