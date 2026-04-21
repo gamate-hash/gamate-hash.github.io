@@ -45,3 +45,5 @@ https://publish.almora.tv:8888/cpri-dt1/index.m3u8
 https://live20.bozztv.com/akamaissh101/ssh101/tvseagate/chunks.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://webchnl.com/assets/img/channelicons/toonbox.png" group-title="webchnl",Toonbox/Skip
 https://rhine.webchnl.live/memfs/f4a9ef8b-521a-432e-87bf-c2bcebe9405a.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://gamate-hash.github.io/img/nopicture.png" group-title="webchnl",Hash On Demand
+http://hashpie.pages.dev/chnl.m3u8
