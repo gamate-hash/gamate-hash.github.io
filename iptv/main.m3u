@@ -1,26 +1,26 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="" tvg-logo="https://webchnl.com/assets/img/channelicons/biwi.png" group-title="webchnl",biwi
-https://haus.webchnl.com/memfs/e9c2e7db-40a0-4a4a-9115-59414e26b616.m3u8
+https://haus.webchnl.com/chnl.forever/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://webchnl.com/assets/img/channelicons/voltix.png" group-title="webchnl",VOLTIX
-https://rhine.webchnl.live/memfs/a5ebeea5-d842-43ae-add9-290d59f5593e.m3u8
+https://haus.webchnl.com/chnl.forever/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://webchnl.com/assets/img/channelicons/eel_ch.png" group-title="webchnl",Eel Channel
-https://rhine.webchnl.live/memfs/ee44b078-5b16-4484-b054-76079dc2d45c.m3u8
+https://haus.webchnl.com/chnl.forever/index.m3u8
 #EXTINF:-1 tvg-id="test" tvg-url="https://gamate-hash.github.io/guide/test.xml" tvg-logo="https://webchnl.com/assets/img/channelicons/spark.png" group-title="webchnl",Spark/Quant
-https://haus.webchnl.com/memfs/4b5bb625-7942-4025-b571-dd464a8968f0.m3u8
+https://haus.webchnl.com/chnl.forever/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://webchnl.com/assets/img/channelicons/whiplash.png" group-title="webchnl",Whiplash
-https://haus.webchnl.com/memfs/fe3e4302-97f6-44b1-b407-db8b59256cde.m3u8
+https://haus.webchnl.com/chnl.forever/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://webchnl.com/assets/img/channelicons/whiplash2.png" group-title="webchnl",Whiplash 2
-https://haus.webchnl.com/memfs/a42a3216-cc42-4fa0-a4f3-c1a97cd1bdd6.m3u8
+https://haus.webchnl.com/chnl.forever/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://webchnl.com/assets/img/channelicons/whiplashcinema.png" group-title="webchnl",Whiplash Cinema
-https://haus.webchnl.com/memfs/fc30cd88-f7c3-4b06-b481-810939220ade.m3u8
+https://haus.webchnl.com/chnl.forever/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://webchnl.com/assets/img/channelicons/dijit.png" group-title="webchnl",DIJIT
-https://rhine.webchnl.live/memfs/39c22a0a-ba5a-4cda-bb74-83108e8e3e69.m3u8
+https://haus.webchnl.com/chnl.forever/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://webchnl.com/assets/img/channelicons/bawa.png" group-title="webchnl",bawa
-https://haus.webchnl.com/memfs/e95f15af-aaa6-4334-873b-db0044789c8e.m3u8
+https://haus.webchnl.com/chnl.forever/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://gamate-hash.github.io/img/nopicture.png" group-title="Weather & News",PicelBoi Broadcasting - IntelliSTAR 2 XD (New York)
 https://watch.mistweather.com/hls/wpbb/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://webchnl.com/assets/img/banners/flashbak.webp" group-title="webchnl",FlashBAK
-https://rhine.webchnl.live/memfs/d839aad2-f86a-49d9-bef3-e7c4c2b8e9f0.m3u8
+https://haus.webchnl.com/chnl.forever/index.m3u8
 #EXTINF:-1 tvg-name="Totalmusic" tvg-logo="https://webchnl.com/assets/img/channelicons/totalmusic.png" group-title="webchnl",Totalmusic
 https://cdn.global.elektamedia.com/live/c7eds/Totalmusic/SA_LIVE_hls_enc/master.m3u8
 #EXTINF:-1 tvg-name="Totalmusic 80s" tvg-logo="https://webchnl.com/assets/img/channelicons/totalmusic80s.png" group-title="webchnl",Totalmusic 80s
@@ -44,6 +44,6 @@ https://publish.almora.tv:8888/cpri-dt1/index.m3u8
 #EXTINF:-1 tvg-name="" tvg-logo="https://gamate-hash.github.io/img/nopicture.png" group-title="Misc",TVSeagate Live
 https://live20.bozztv.com/akamaissh101/ssh101/tvseagate/chunks.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://webchnl.com/assets/img/channelicons/toonbox.png" group-title="webchnl",Toonbox/Skip
-https://rhine.webchnl.live/memfs/f4a9ef8b-521a-432e-87bf-c2bcebe9405a.m3u8
+https://haus.webchnl.com/chnl.forever/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://gamate-hash.github.io/img/nopicture.png" group-title="Misc",TELECANAL 67 AMERICA
 https://183.bozztv.com/ssh101/ssh101/telecanalagain/playlist.m3u8
